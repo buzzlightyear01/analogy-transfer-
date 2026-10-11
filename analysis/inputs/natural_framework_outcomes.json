@@ -1,0 +1,2802 @@
+[
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec055vn3qEqKHHTc",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec0VuKUjt1SZ7NYv",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec0wsMJZgWo7ICJm",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec1BjNQici8oD53a",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec1Ey0Fnt2RhnsmU",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec1zl5LvaatzGhFt",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec260hNUCEj109Dj",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec2K9NTFNw04xewq",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec2NJhNJ4umq2HFG",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec2ZTsqazBZ3LTWZ",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec2fEZkqcDWMh1JV",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec32C1ZEapBnCC0E",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec42yAdAZnQgoibP",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec44cTEfuCXCkHVs",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec4J0X5OLsY61yQm",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec5eA17Qr1ucNLUf",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec6sE2CRtD4drtHg",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec7qmSnbud4FHSqL",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec90hpebagUgiRpS",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recBhnXrUyTJ6WHIR",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recC9TQpdpRVRFzXO",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recEitMlu2rOnMmkn",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recEmTBhx2hgw6tPQ",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recF89DhiduLI4cNl",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recFwRHr3u5YpusE2",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recHn7vGOLWx9rnh3",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recIDiDKKrN61Auyr",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recIIMmhxoNeJkgye",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recIMcQfaQNa6vzsT",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recIm3gjvmPQiEZih",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recJJcOHhFeSaRpl4",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recJYLOV2gf7p1Mx2",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recJZ3QEfRKjYw9a7",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recMicVBcqy1xM1jq",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recNGovj5Pv0yxbfx",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recNfEV6AjS2ZFn5W",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recNu3MXkvWUzHZr9",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recO3hvCWRGiG0odN",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recOj90oKbiyjLcBd",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recQSmIQF2OGPfbL8",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recRTiyaRymerDJ4y",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recRVn0fyFjTbKdq4",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recReg13iV2HwJTaA",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recRnD2tQcPDMDxWY",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recTq9xGFD0HRvC7n",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recTroLaIR2mji5FF",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recUc29lMDBEvurYo",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recUdj6ZqNvWNlRKq",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recUu8izzZlaTKwVD",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recV1dB3itJjvXzLx",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recVE8cUNHpHZIAvL",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recVvpD8miVjmmyfe",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recWgLWFncNSime5A",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recWzUUYBN0NuXO2k",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recYCMJWH7IpcdqwE",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recZ13cwgDQf9jRd9",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recZ8cm5DvTme4AI4",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recZFq7Xrv9643qdd",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recZbxrocrxh9YENH",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recbMrWKlgp9uWgUK",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recbjh3mzGhAqPUhl",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reccGBrJaZk9DWZxk",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reccVBrYdwsB84fGy",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reccoJcrp4TJBNe1n",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recdVF1wby5PxfQU6",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:receDA9FwKsxwfPpw",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:receWdnr3u8wvTfPA",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:receo3UUzRvWCqyfA",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recf9kxVBiJc10e3c",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recftca7pyp2TCeAG",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reciHTTRFPWrbhWXA",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reciLRvawYgDdCzrg",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reciMW2VYi4jClmxk",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reciuppdQde4FGX1z",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reckYqR92oJkqJXkE",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reckbjNKYmpQlU5TY",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reclyy1tNCYpnp0UW",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recmFa3O6lOkMF9Zf",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recmI7EiLv72PxmYK",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recn3NhOhqAPLda16",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recoW8Ztae7Ruxru4",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recoiTJPGUmzAkief",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recp7VwqZlO6v7ly8",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recpki12iG9RUGrz9",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recqhfI2AdHd6MVew",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recr6XgkQQXYycWDm",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recr71WEmXEEMzRgq",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recrHBEJJoDTV05JR",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recs3PLPUEMiqg4P8",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recsPlJ0dQUiWr1fh",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recsiPyyjXBOPsSMv",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rect4iLrSfUwkNTno",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rectlyG9pCAAuWhoB",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recuIk9Y5lMFea9vK",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recuzuROrJQs1qQvR",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recwhMjaIdnLkGTgN",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recyPffUDqC2k7ZZO",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recyl3usDqb7ruXJx",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reczlLY9O5zHKaGL0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reczzzihL7btBH7RO",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:0:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:103:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:10:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:111:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:112:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:113:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:117:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:118:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:124:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:125:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:135:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:13:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:141:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:142:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:145:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:14:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:150:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:152:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:154:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:156:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:159:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:162:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:163:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:165:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:169:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:170:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:171:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:172:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:173:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:174:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:179:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:17:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:187:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:188:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:191:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:192:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:199:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:200:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:201:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:202:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:203:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:205:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:206:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:20:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:213:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:215:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:220:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:221:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:225:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:226:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:227:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:228:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:229:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:22:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:230:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:232:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:235:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:236:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:237:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:241:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:242:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:243:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:248:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:24:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:25:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:26:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:27:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:28:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:29:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:34:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:39:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:40:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:47:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:48:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:49:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:52:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:53:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:55:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:56:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:59:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:60:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:64:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:66:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:67:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:69:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:70:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:71:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:74:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:75:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:77:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:79:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:80:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:85:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:87:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:8:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:91:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:92:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:93:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:97:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "cf.llama-3.1-8b-instruct-fast",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:9:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec055vn3qEqKHHTc",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec0VuKUjt1SZ7NYv",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec0wsMJZgWo7ICJm",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec1BjNQici8oD53a",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec1Ey0Fnt2RhnsmU",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec1zl5LvaatzGhFt",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec260hNUCEj109Dj",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec2K9NTFNw04xewq",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec2NJhNJ4umq2HFG",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec2ZTsqazBZ3LTWZ",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec2fEZkqcDWMh1JV",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec32C1ZEapBnCC0E",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec42yAdAZnQgoibP",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec44cTEfuCXCkHVs",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec4J0X5OLsY61yQm",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec5eA17Qr1ucNLUf",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec6sE2CRtD4drtHg",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec7qmSnbud4FHSqL",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rec90hpebagUgiRpS",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recBhnXrUyTJ6WHIR",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recC9TQpdpRVRFzXO",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recEitMlu2rOnMmkn",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recEmTBhx2hgw6tPQ",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recF89DhiduLI4cNl",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recFwRHr3u5YpusE2",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recHn7vGOLWx9rnh3",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recIDiDKKrN61Auyr",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recIIMmhxoNeJkgye",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recIMcQfaQNa6vzsT",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recIm3gjvmPQiEZih",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recJJcOHhFeSaRpl4",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recJYLOV2gf7p1Mx2",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recJZ3QEfRKjYw9a7",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recMicVBcqy1xM1jq",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recNGovj5Pv0yxbfx",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recNfEV6AjS2ZFn5W",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recNu3MXkvWUzHZr9",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recO3hvCWRGiG0odN",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recOj90oKbiyjLcBd",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recQSmIQF2OGPfbL8",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recRTiyaRymerDJ4y",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recRVn0fyFjTbKdq4",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recReg13iV2HwJTaA",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recRnD2tQcPDMDxWY",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recTq9xGFD0HRvC7n",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recTroLaIR2mji5FF",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recUc29lMDBEvurYo",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recUdj6ZqNvWNlRKq",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recUu8izzZlaTKwVD",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recV1dB3itJjvXzLx",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recVE8cUNHpHZIAvL",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recVvpD8miVjmmyfe",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recWgLWFncNSime5A",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recWzUUYBN0NuXO2k",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recYCMJWH7IpcdqwE",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recZ13cwgDQf9jRd9",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recZ8cm5DvTme4AI4",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recZFq7Xrv9643qdd",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recZbxrocrxh9YENH",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recbMrWKlgp9uWgUK",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recbjh3mzGhAqPUhl",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reccGBrJaZk9DWZxk",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reccVBrYdwsB84fGy",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reccoJcrp4TJBNe1n",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recdVF1wby5PxfQU6",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:receDA9FwKsxwfPpw",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:receWdnr3u8wvTfPA",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:receo3UUzRvWCqyfA",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recf9kxVBiJc10e3c",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recftca7pyp2TCeAG",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reciHTTRFPWrbhWXA",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reciLRvawYgDdCzrg",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reciMW2VYi4jClmxk",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reciuppdQde4FGX1z",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reckYqR92oJkqJXkE",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reckbjNKYmpQlU5TY",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reclyy1tNCYpnp0UW",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recmFa3O6lOkMF9Zf",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recmI7EiLv72PxmYK",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recn3NhOhqAPLda16",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recoW8Ztae7Ruxru4",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recoiTJPGUmzAkief",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recp7VwqZlO6v7ly8",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recpki12iG9RUGrz9",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recqhfI2AdHd6MVew",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recr6XgkQQXYycWDm",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recr71WEmXEEMzRgq",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recrHBEJJoDTV05JR",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recs3PLPUEMiqg4P8",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recsPlJ0dQUiWr1fh",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recsiPyyjXBOPsSMv",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rect4iLrSfUwkNTno",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:rectlyG9pCAAuWhoB",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recuIk9Y5lMFea9vK",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recuzuROrJQs1qQvR",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recwhMjaIdnLkGTgN",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recyPffUDqC2k7ZZO",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:recyl3usDqb7ruXJx",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reczlLY9O5zHKaGL0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "gpqa_main",
+    "item_id": "gpqa_main:reczzzihL7btBH7RO",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:0:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:103:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:10:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:111:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:112:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:113:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:117:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:118:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:124:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:125:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:135:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:13:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:141:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:142:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:145:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:14:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:150:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:152:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:154:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:156:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:159:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:162:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:163:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:165:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:169:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:170:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:171:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:172:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:173:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:174:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:179:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:17:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:187:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:188:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:191:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:192:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:199:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:200:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:201:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:202:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:203:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:205:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:206:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:20:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:213:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:215:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:220:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:221:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:225:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:226:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:227:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:228:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:229:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:22:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:230:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:232:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:235:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:236:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:237:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:241:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:242:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:243:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:248:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:24:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:25:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:26:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:27:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:28:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:29:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:34:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:39:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:40:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:47:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:48:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:49:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:52:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:53:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:55:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:56:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:59:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:60:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:64:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:66:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:67:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:69:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:70:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:71:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:74:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:75:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:77:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:79:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:80:0",
+    "baseline_correct": false,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:85:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:87:0",
+    "baseline_correct": false,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:8:0",
+    "baseline_correct": true,
+    "framework_correct": false
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:91:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:92:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:93:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:97:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "dataset": "musr_murder_mystery",
+    "item_id": "musr_murder_mystery:9:0",
+    "baseline_correct": true,
+    "framework_correct": true
+  }
+]

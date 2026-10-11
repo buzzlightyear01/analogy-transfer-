@@ -1,0 +1,163 @@
+[
+  {
+    "model": "Mistral-7B-Instruct-v0.3",
+    "condition": 1,
+    "label": "Analogy 300w",
+    "matched": 448,
+    "counts": [
+      35,
+      86,
+      41,
+      286
+    ],
+    "percentages": [
+      7.8125,
+      19.196428571428573,
+      9.151785714285714,
+      63.839285714285715
+    ],
+    "cot_accuracy_matched": 16.964285714285715,
+    "condition_accuracy_matched": 27.008928571428573,
+    "delta_pp": 10.044642857142858,
+    "baseline_unmatched": 0,
+    "condition_unmatched": 0
+  },
+  {
+    "model": "Mistral-7B-Instruct-v0.3",
+    "condition": 2,
+    "label": "Analogy 600w",
+    "matched": 448,
+    "counts": [
+      30,
+      99,
+      46,
+      273
+    ],
+    "percentages": [
+      6.696428571428571,
+      22.098214285714285,
+      10.267857142857142,
+      60.9375
+    ],
+    "cot_accuracy_matched": 16.964285714285715,
+    "condition_accuracy_matched": 28.794642857142858,
+    "delta_pp": 11.830357142857142,
+    "baseline_unmatched": 0,
+    "condition_unmatched": 0
+  },
+  {
+    "model": "Mistral-7B-Instruct-v0.3",
+    "condition": 3,
+    "label": "2 examples x 300w",
+    "matched": 448,
+    "counts": [
+      32,
+      105,
+      44,
+      267
+    ],
+    "percentages": [
+      7.142857142857143,
+      23.4375,
+      9.821428571428571,
+      59.598214285714285
+    ],
+    "cot_accuracy_matched": 16.964285714285715,
+    "condition_accuracy_matched": 30.580357142857142,
+    "delta_pp": 13.616071428571429,
+    "baseline_unmatched": 0,
+    "condition_unmatched": 0
+  },
+  {
+    "model": "Mistral-7B-Instruct-v0.3",
+    "condition": 4,
+    "label": "3 examples x 200w",
+    "matched": 448,
+    "counts": [
+      31,
+      88,
+      45,
+      284
+    ],
+    "percentages": [
+      6.919642857142857,
+      19.642857142857142,
+      10.044642857142858,
+      63.392857142857146
+    ],
+    "cot_accuracy_matched": 16.964285714285715,
+    "condition_accuracy_matched": 26.5625,
+    "delta_pp": 9.598214285714286,
+    "baseline_unmatched": 0,
+    "condition_unmatched": 0
+  },
+  {
+    "model": "Mistral-7B-Instruct-v0.3",
+    "condition": 7,
+    "label": "Random same domain 300w",
+    "matched": 448,
+    "counts": [
+      34,
+      90,
+      42,
+      282
+    ],
+    "percentages": [
+      7.589285714285714,
+      20.089285714285715,
+      9.375,
+      62.94642857142857
+    ],
+    "cot_accuracy_matched": 16.964285714285715,
+    "condition_accuracy_matched": 27.678571428571427,
+    "delta_pp": 10.714285714285714,
+    "baseline_unmatched": 0,
+    "condition_unmatched": 0
+  },
+  {
+    "model": "Mistral-7B-Instruct-v0.3",
+    "condition": 8,
+    "label": "Random other domain 300w",
+    "matched": 448,
+    "counts": [
+      37,
+      89,
+      39,
+      283
+    ],
+    "percentages": [
+      8.258928571428571,
+      19.866071428571427,
+      8.705357142857142,
+      63.169642857142854
+    ],
+    "cot_accuracy_matched": 16.964285714285715,
+    "condition_accuracy_matched": 28.125,
+    "delta_pp": 11.160714285714286,
+    "baseline_unmatched": 0,
+    "condition_unmatched": 0
+  },
+  {
+    "model": "Mistral-7B-Instruct-v0.3",
+    "condition": 21,
+    "label": "Self analogy",
+    "matched": 448,
+    "counts": [
+      34,
+      67,
+      42,
+      305
+    ],
+    "percentages": [
+      7.589285714285714,
+      14.955357142857142,
+      9.375,
+      68.08035714285714
+    ],
+    "cot_accuracy_matched": 16.964285714285715,
+    "condition_accuracy_matched": 22.544642857142858,
+    "delta_pp": 5.580357142857143,
+    "baseline_unmatched": 0,
+    "condition_unmatched": 0
+  }
+]

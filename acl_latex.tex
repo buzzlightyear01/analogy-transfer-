@@ -12,17 +12,18 @@
 \usepackage{amsmath}
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta,positioning}
-\title{Beyond Mapping: A Theory-Grounded Framework for\protect\\Evaluating Analogical Transfer in Language Models}
+\title{Beyond Accuracy: Diagnosing Analogical Transfer\protect\\in Language Models}
 \author{Anonymous ACL submission}
 \begin{document}
 \maketitle
 \begin{abstract}
-Language models can benefit from analogies without reliably transferring their relational structure. Additional explanation and answer cues can improve accuracy, while a net gain can conceal regressions. We introduce a theory-grounded diagnostic framework that operationalizes analogical reasoning through retrieval, mapping, schema induction, and adaptation. Explicit stage artifacts and information boundaries allow unsuccessful paths to be inspected and rerun after reference-informed upstream corrections. Three complementary evaluations link outcome measurement to process diagnosis. Scientific question-answering controls show that analogy gains need not exceed explanation or random-example effects. A factorial narrative experiment finds structure-dependent source-answer benefits, including transfer interactions of 14.24 and 12.94 percentage points for Llama-3.1-8B and 70B. In the diagnostic workflow, all initial GPQA failures occur at retrieval, yet 75.34\% of that failure cohort still reaches inadequate adaptation after upstream corrections. This separates the first visible barrier from the remaining difficulty. The framework enables more precise evaluation of helpful and harmful analogy use while distinguishing assisted continuation from independent model success.
+An accuracy gain after an analogy does not establish that a language model used its relational structure, and an incorrect answer does not identify where transfer failed. We introduce a theory-grounded diagnostic framework with explicit artifacts for source construction, mapping, schema induction, and adaptation. Restricted interfaces make the source-to-target path inspectable; oracle-authored replacements allow the same base model to continue from corrected intermediate guidance. Three studies examine outcome attribution, source-answer transfer, and stage diagnosis. Scientific question-answering controls show that net gains can coexist with regressions and need not exceed explanation or random-example benefits. A four-condition narrative study finds positive structure-dependent source-answer interactions in four of six models, robust in conditional story-level resampling and control sensitivity analyses. In a 200-question Llama diagnostic study, upstream replacements rescue 18 of 73 initial GPQA errors and 15 of 43 murder-mystery errors, while many corrected continuations remain unsuccessful. These observations distinguish first-artifact assignments from subsequent continuation outcomes. The framework provides an auditable evaluation protocol; its artifacts do not reveal hidden cognition, and assisted continuations are distinct from autonomous model performance.
 \end{abstract}
 \input{sections/01_introduction}
 \input{sections/02_framework}
 \input{sections/03_evaluation}
 \input{sections/04_results}
+\input{sections/09_discussion}
 \input{sections/05_related_work}
 \input{sections/06_conclusion}
 \clearpage

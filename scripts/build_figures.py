@@ -11,8 +11,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,'pdf.fonttype':42,'axes.spines.top':False,'axes.spines.right':False})
-data=json.loads((ROOT/'tehran-thesis-master/output/phase1_cot_transitions/audit.json').read_text())
-rows=[r for r in data['comparisons'] if r['model']=='Mistral-7B-Instruct-v0.3']
+rows=json.loads((BASE/'analysis/inputs/mistral_transitions.json').read_text())
 labels={1:'Analogy 300w',2:'Analogy 600w',3:'2 x 300w',4:'3 x 200w',7:'Random same domain',8:'Random other domain',21:'Self-analogy'}
 fig,ax=plt.subplots(figsize=(3.8,2.6))
 y=np.arange(len(rows))
@@ -24,13 +23,12 @@ ax.set_yticks(y,[labels[r['condition']] for r in rows]);ax.invert_yaxis();ax.axv
 ax.set_xlim(-18,29);ax.set_xlabel('Share of all matched questions (%)')
 ax.legend(loc='upper center',bbox_to_anchor=(.35,1.2),ncol=2,frameon=False,fontsize=7)
 fig.tight_layout();fig.savefig(OUT/'phase1_transitions.pdf',bbox_inches='tight');fig.savefig(OUT/'phase1_transitions.png',dpi=180,bbox_inches='tight');plt.close(fig)
-source=ROOT/'result_audit/real_chart_atlas/canonical/observed_stage_flow_data.csv'
-with source.open() as f: states=list(csv.DictReader(f))
+states=json.loads((BASE/'analysis/inputs/llama_retained_states.json').read_text())
 fig,ax=plt.subplots(figsize=(3.8,2.3))
 for dataset,n,color,offset in [('GPQA',73,'#367CA0',-14),('Murder Mystery',43,'#9D6797',8)]:
  ss=[r for r in states if r['dataset']==dataset and r['state'] in ['Initial diagnosis','After Gold Retrieval','After Gold Mapping','After Gold Schema']]
- counts=[int(r['correct'])//2 for r in ss]
- assert all(int(r['denominator'])//2==n for r in ss)
+ counts=[int(r['correct']) for r in ss]
+ assert all(int(r['denominator'])==n for r in ss)
  vals=np.array(counts)*100/n
  ax.plot(range(4),vals,'o-',color=color,lw=1.7,markersize=4,label=dataset)
  for x,p,c in zip(range(4),vals,counts):

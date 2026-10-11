@@ -1,0 +1,217 @@
+{
+  "item_id": "musr_murder_mystery:87:0",
+  "benchmark_key": "B",
+  "original_answer": "A",
+  "original_schema": {
+    "schema_text": "",
+    "roles": [],
+    "relations": [],
+    "applicability_conditions": [],
+    "solution_or_inference_rule": "",
+    "boundaries_and_exceptions": [],
+    "support": [],
+    "sufficiency": "insufficient"
+  },
+  "original_adaptation_schema_checks": [
+    {
+      "check": "schema_text is empty and roles/relations/rules are empty",
+      "result": "unresolved",
+      "evidence": "supplied schema has schema_text \"\", roles [], relations [], solution_or_inference_rule \"\", sufficiency \"insufficient\""
+    }
+  ],
+  "continuation_final_answer": "B",
+  "continuation_status": "completed",
+  "oracle_assisted": true,
+  "chain_sources": {
+    "retrieval": "original_base_model",
+    "mapping": "original_base_model",
+    "schema_induction": "strong_manual_replacement",
+    "adaptation": "base_model_rerun_after_replacement"
+  },
+  "reference_schema": {
+    "schema_text": "Initial state: A harmful incident has affected a victim or valued target, and two or more candidate agents each have some combination of motive, access, or opportunity. The incident was carried out through a method that leaves a discriminating signature: a required credential, specialized tool or permission, controlled inventory item, or object/medication provenance. Goal: select the candidate whose relations explain both why the incident would be committed and how the specific method could actually be executed. Available information: candidate-specific motive; presence or opportunity in the relevant interval; general access; method-specific access; and evidence linking the observed method signature to a candidate's credential, role, tool, inventory, prescription, or controlled object. Constraints: motive, generic scene access, or a superficially similar object alone is insufficient. The decisive method evidence must distinguish one candidate's operational route from an alternative candidate's merely possible route. Solution procedure: identify the method signature; determine what capability, credential, or controlled resource the method required; compare each candidate against that requirement; verify motive and opportunity for the candidate with the strongest method-specific match; and reject a candidate whose motive or generic access lacks the required signature link. Expected outcome: attribute the incident to the candidate for whom motive, opportunity, and method-specific access converge. The mapping package does not provide a numerical evidential threshold, a universal legal standard, or a rule that method evidence is conclusive when multiple candidates match it equally.",
+    "roles": [
+      {
+        "role": "victim_or_valued_target",
+        "description": "individual or asset harmed by the incident"
+      },
+      {
+        "role": "candidate_agent",
+        "description": "one of the alternatives considered responsible for the incident"
+      },
+      {
+        "role": "investigator_or_decision_maker",
+        "description": "agent reconstructing responsibility from motive, access, logs, and method evidence"
+      },
+      {
+        "role": "motive_threat",
+        "description": "career, reputation, status, financial, or legal loss created by the target's action"
+      },
+      {
+        "role": "incident_method",
+        "description": "mechanism, tool, credentialed operation, or harmful substance used in the incident"
+      },
+      {
+        "role": "general_access_or_opportunity",
+        "description": "broad ability to enter the setting or be present during the relevant interval"
+      },
+      {
+        "role": "method_specific_access",
+        "description": "role-specific credential, specialized permission, controlled tool, inventory item, or substance access required by the method"
+      },
+      {
+        "role": "method_signature_evidence",
+        "description": "trace connecting the actual method to a candidate's distinctive access or controlled resource"
+      },
+      {
+        "role": "alternative_candidate",
+        "description": "candidate with motive or generic access but without an equally strong method-signature match"
+      }
+    ],
+    "relations": [
+      {
+        "relation": "threat_creates_motive",
+        "arguments": [
+          "victim_or_valued_target",
+          "candidate_agent",
+          "motive_threat"
+        ],
+        "description": "the target's planned action creates a candidate-specific reason to prevent or retaliate against it"
+      },
+      {
+        "relation": "candidate_has_opportunity",
+        "arguments": [
+          "candidate_agent",
+          "general_access_or_opportunity"
+        ],
+        "description": "the candidate can act in the relevant setting and interval"
+      },
+      {
+        "relation": "method_requires_specific_access",
+        "arguments": [
+          "incident_method",
+          "method_specific_access"
+        ],
+        "description": "executing the observed method requires a distinguishing credential, role, tool, inventory source, or controlled substance"
+      },
+      {
+        "relation": "signature_matches_candidate_access",
+        "arguments": [
+          "method_signature_evidence",
+          "method_specific_access",
+          "candidate_agent"
+        ],
+        "description": "the method trace is explained by the candidate's distinctive operational access or controlled resource"
+      },
+      {
+        "relation": "generic_access_is_nondiagnostic",
+        "arguments": [
+          "alternative_candidate",
+          "general_access_or_opportunity"
+        ],
+        "description": "motive or broad access without the method-signature link does not uniquely explain the incident"
+      },
+      {
+        "relation": "convergent_responsibility_inference",
+        "arguments": [
+          "motive_threat",
+          "general_access_or_opportunity",
+          "method_signature_evidence",
+          "candidate_agent"
+        ],
+        "description": "motive and opportunity support responsibility when they converge in the same candidate with the discriminating method-specific link"
+      }
+    ],
+    "applicability_conditions": [
+      {
+        "condition": "At least two candidate agents have plausible motive, means, access, or opportunity.",
+        "requirement": "required"
+      },
+      {
+        "condition": "The incident method has a trace or operational requirement that can distinguish candidate access.",
+        "requirement": "required"
+      },
+      {
+        "condition": "At least one candidate has method-specific access supported by a credential, controlled item, matching substance, specialized role, or equivalent signature.",
+        "requirement": "required"
+      },
+      {
+        "condition": "The candidate with the method-specific match also has a supported motive and relevant opportunity.",
+        "requirement": "required"
+      },
+      {
+        "condition": "Competing candidates are evaluated under the same motive-access-method criteria rather than eliminated by surface attributes alone.",
+        "requirement": "required"
+      },
+      {
+        "condition": "A physical trace, electronic log, inventory provenance, prescription match, or role-specific operation may instantiate the signature relation.",
+        "requirement": "optional form of evidence"
+      }
+    ],
+    "solution_or_inference_rule": "IF multiple candidates have some motive or opportunity, AND the incident method requires a distinguishing credential, capability, controlled resource, or object provenance, AND the observed method signature matches one candidate's method-specific access more directly than the alternatives, AND that same candidate also has a supported motive and relevant opportunity, THEN infer that candidate as the best-supported responsible agent. The logical basis is conjunctive and entity-consistent: motive explains why, opportunity explains when or where, and the signature-access match explains how; all three must converge on the same candidate. A competing candidate's motive, generic access, receipt for a similar object, or possession of broadly related tools is insufficient without an equally specific link to the actual method.",
+    "boundaries_and_exceptions": [
+      "The schema supports comparative attribution, not deductive proof or a legal standard of guilt.",
+      "If two candidates have equally strong method-signature links, the schema is insufficient without another discriminating relation.",
+      "A similar object is not automatically the incident object; provenance or another operational link must be evaluated.",
+      "A credential or controlled resource may have been borrowed, stolen, or misused; such an alternative must be retained when the mapping evidence supports it.",
+      "Motive alone and general presence alone are nondiagnostic when shared by multiple candidates.",
+      "The mapping package supplies no numerical weights or probability threshold for combining evidence.",
+      "Concrete method signatures differ across domains and must not be treated as identical surface attributes."
+    ],
+    "support": [
+      {
+        "source_ids": [
+          "s1",
+          "s2",
+          "s3"
+        ],
+        "statement_ids": [
+          "correspondences:motive_role",
+          "correspondences:access_role",
+          "correspondences:method_signature_role"
+        ],
+        "evidence": "All selected sources represent multiple suspects with motive/access and distinguish them through method-specific access evidence."
+      },
+      {
+        "source_id": "s1",
+        "statement_ids": [
+          "agent has access -> required method/tool/system permission",
+          "evidence of method -> role-specific access signature",
+          "motive + opportunity + method-specific access -> responsibility inference"
+        ],
+        "evidence": "Mechanic-level system access and the checked-out tool explain the specific tampering route beyond a competing receipt or generic access."
+      },
+      {
+        "source_id": "s2",
+        "statement_ids": [
+          "agent has access -> required credential/override",
+          "evidence of method -> senior-staff credential signature",
+          "motive + opportunity + credential-specific access -> responsibility inference"
+        ],
+        "evidence": "The maintenance override requires senior credentials, creating a candidate-specific operational signature."
+      },
+      {
+        "source_id": "s3",
+        "statement_ids": [
+          "agent has access -> required key/inventory/medication",
+          "evidence of method -> unique object/medication signature",
+          "motive + opportunity + object-specific access -> responsibility inference"
+        ],
+        "evidence": "Prescription and replacement-inventory matches connect the harmful method to one candidate more specifically than corridor access alone."
+      },
+      {
+        "source_ids": [
+          "s1",
+          "s2",
+          "s3"
+        ],
+        "statement_ids": [
+          "important_differences"
+        ],
+        "evidence": "The concrete signature varies across mechanical, digital, and poisoning incidents, while the shared inference remains method-specific access outweighing generic motive/opportunity."
+      }
+    ],
+    "sufficiency": "complete"
+  },
+  "created_at": "2026-10-02T08:27:09.534745+00:00"
+}

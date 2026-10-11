@@ -1,0 +1,266 @@
+{
+  "analysis_date": "2026-10-12",
+  "seed": 20261012,
+  "bootstrap_draws": 20000,
+  "interpretation": "Conditional descriptive resampling intervals. No source-regeneration, permutation or annotation uncertainty.",
+  "transfer": [
+    {
+      "model": "llama-3.2-1b-instruct",
+      "questions": 103,
+      "stories": 88,
+      "runs": 3,
+      "cells_percent": [
+        38.51132686084142,
+        44.01294498381878,
+        38.51132686084142,
+        44.01294498381876
+      ],
+      "interaction_pp": -2.1557728633498183e-16,
+      "story_bootstrap_95": [
+        -15.464224349533628,
+        15.0
+      ],
+      "item_bootstrap_95": [
+        -13.915857605177994,
+        13.915857605177992
+      ],
+      "invalid_events_per_cell": [
+        24,
+        14,
+        29,
+        4
+      ],
+      "common_valid_questions": 80,
+      "common_valid_interaction_pp": 7.916666666666666,
+      "excluding_same_story_n": 99,
+      "excluding_same_story_interaction_pp": -0.3367003367003373
+    },
+    {
+      "model": "llama-3.2-3b-instruct",
+      "questions": 103,
+      "stories": 88,
+      "runs": 3,
+      "cells_percent": [
+        54.0453074433657,
+        56.957928802588995,
+        40.1294498381877,
+        43.042071197411
+      ],
+      "interaction_pp": 3.233659295024728e-16,
+      "story_bootstrap_95": [
+        -9.666666666666664,
+        9.333333333333332
+      ],
+      "item_bootstrap_95": [
+        -10.35598705501618,
+        10.355987055016184
+      ],
+      "invalid_events_per_cell": [
+        2,
+        4,
+        0,
+        5
+      ],
+      "common_valid_questions": 98,
+      "common_valid_interaction_pp": -0.3401360544217684,
+      "excluding_same_story_n": 99,
+      "excluding_same_story_interaction_pp": -1.346801346801346
+    },
+    {
+      "model": "llama-3.1-8b-instruct",
+      "questions": 103,
+      "stories": 88,
+      "runs": 3,
+      "cells_percent": [
+        52.103559870550164,
+        65.69579288025892,
+        52.42718446601942,
+        51.77993527508092
+      ],
+      "interaction_pp": 14.239482200647252,
+      "story_bootstrap_95": [
+        5.841924398625429,
+        22.3404255319149
+      ],
+      "item_bootstrap_95": [
+        5.825242718446601,
+        22.97734627831715
+      ],
+      "invalid_events_per_cell": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "common_valid_questions": 102,
+      "common_valid_interaction_pp": 14.05228758169935,
+      "excluding_same_story_n": 99,
+      "excluding_same_story_interaction_pp": 13.804713804713806
+    },
+    {
+      "model": "llama-3.1-70b-instruct",
+      "questions": 103,
+      "stories": 88,
+      "runs": 3,
+      "cells_percent": [
+        59.223300970873794,
+        72.168284789644,
+        53.07443365695793,
+        53.07443365695794
+      ],
+      "interaction_pp": 12.944983818770229,
+      "story_bootstrap_95": [
+        5.345911949685535,
+        21.27659574468085
+      ],
+      "item_bootstrap_95": [
+        4.854368932038835,
+        21.35922330097087
+      ],
+      "invalid_events_per_cell": [
+        13,
+        9,
+        8,
+        7
+      ],
+      "common_valid_questions": 88,
+      "common_valid_interaction_pp": 14.015151515151517,
+      "excluding_same_story_n": 99,
+      "excluding_same_story_interaction_pp": 13.131313131313133
+    },
+    {
+      "model": "qwen3-14b",
+      "questions": 103,
+      "stories": 88,
+      "runs": 2,
+      "cells_percent": [
+        66.01941747572816,
+        75.24271844660194,
+        60.679611650485434,
+        60.679611650485434
+      ],
+      "interaction_pp": 9.223300970873787,
+      "story_bootstrap_95": [
+        1.9417475728155338,
+        17.0
+      ],
+      "item_bootstrap_95": [
+        1.4563106796116505,
+        16.990291262135923
+      ],
+      "invalid_events_per_cell": [
+        24,
+        23,
+        40,
+        39
+      ],
+      "common_valid_questions": 58,
+      "common_valid_interaction_pp": 12.068965517241379,
+      "excluding_same_story_n": 99,
+      "excluding_same_story_interaction_pp": 9.595959595959595
+    },
+    {
+      "model": "qwen3-32b",
+      "questions": 103,
+      "stories": 88,
+      "runs": 2,
+      "cells_percent": [
+        68.93203883495146,
+        74.27184466019418,
+        65.53398058252428,
+        58.252427184466015
+      ],
+      "interaction_pp": 12.62135922330097,
+      "story_bootstrap_95": [
+        1.4989077669902922,
+        23.78640776699029
+      ],
+      "item_bootstrap_95": [
+        1.9417475728155338,
+        23.300970873786408
+      ],
+      "invalid_events_per_cell": [
+        13,
+        19,
+        20,
+        30
+      ],
+      "common_valid_questions": 65,
+      "common_valid_interaction_pp": 10.0,
+      "excluding_same_story_n": 99,
+      "excluding_same_story_interaction_pp": 12.626262626262626
+    }
+  ],
+  "natural_framework": [
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "n": 100,
+      "baseline_correct": 25,
+      "framework_correct": 27,
+      "incorrect_to_correct": 15,
+      "correct_to_incorrect": 13
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "n": 100,
+      "baseline_correct": 63,
+      "framework_correct": 57,
+      "incorrect_to_correct": 10,
+      "correct_to_incorrect": 16
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "n": 100,
+      "baseline_correct": 58,
+      "framework_correct": 63,
+      "incorrect_to_correct": 19,
+      "correct_to_incorrect": 14
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "n": 100,
+      "baseline_correct": 78,
+      "framework_correct": 77,
+      "incorrect_to_correct": 11,
+      "correct_to_incorrect": 12
+    }
+  ],
+  "inputs": [
+    {
+      "file": "analysis/inputs/deepseek_archived_states.json",
+      "sha256": "b09287cd8c64bc0fbf43db109b0c8b817bee423dc4ad99c765eee9f4126e973c"
+    },
+    {
+      "file": "analysis/inputs/llama_retained_states.json",
+      "sha256": "51c5d5b75899aede0c45ea432617c40d3213d925a69b81887171619c70f300e5"
+    },
+    {
+      "file": "analysis/inputs/mistral_transitions.json",
+      "sha256": "f256776957cb9f164e469898a774b106aa32f28d76fe6c5c195ca43232b3ece1"
+    },
+    {
+      "file": "analysis/inputs/natural_framework_outcomes.json",
+      "sha256": "db0309088305e5379e876caa3c6bb18bc8f9a9a9370e84a5a635ecaa76c170bc"
+    },
+    {
+      "file": "analysis/inputs/natural_interface_audit.json",
+      "sha256": "98762964a1486d1e3068019bdf392f21631040ed54cd7d6771c1b9f8427ee781"
+    },
+    {
+      "file": "analysis/inputs/random_assignments.json",
+      "sha256": "47e6a5011d4c833990a1dee9dc13ba44ff0a8ea5d64b2a5184eaa6b815704595"
+    },
+    {
+      "file": "analysis/inputs/schema_case_87.json",
+      "sha256": "9c9b3afdc7a5faea878d88c30142fbb473007834738a847f9511e0cbe7f13917"
+    },
+    {
+      "file": "analysis/inputs/transfer_responses.json",
+      "sha256": "fbf8808b03d4e1bd15808571f1c662c0f7cb28062b36d462acde0cd3d6079639"
+    }
+  ]
+}

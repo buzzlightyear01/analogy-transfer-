@@ -1,0 +1,314 @@
+{
+  "GPQA": {
+    "n": 100,
+    "initial_correct": 63,
+    "initial_wrong": 37,
+    "initial_stage": [
+      34,
+      0,
+      0,
+      2
+    ],
+    "initial_adjudicated": 1,
+    "eventual_stage": [
+      34,
+      1,
+      2,
+      13
+    ],
+    "states": [
+      [
+        "Initial diagnosis",
+        {
+          "Correct": 0,
+          "Retrieval": 34,
+          "Mapping": 0,
+          "Schema": 0,
+          "Adaptation": 2,
+          "Adjudicated": 1
+        }
+      ],
+      [
+        "After Gold Retrieval",
+        {
+          "Correct": 20,
+          "Retrieval": 0,
+          "Mapping": 1,
+          "Schema": 2,
+          "Adaptation": 13,
+          "Adjudicated": 1
+        }
+      ],
+      [
+        "After Gold Mapping",
+        {
+          "Correct": 21,
+          "Retrieval": 0,
+          "Mapping": 0,
+          "Schema": 2,
+          "Adaptation": 13,
+          "Adjudicated": 1
+        }
+      ],
+      [
+        "After Gold Schema",
+        {
+          "Correct": 23,
+          "Retrieval": 0,
+          "Mapping": 0,
+          "Schema": 0,
+          "Adaptation": 13,
+          "Adjudicated": 1
+        }
+      ]
+    ],
+    "final": {
+      "Correct": 23,
+      "Gold-key": 13,
+      "Adjudicated": 1
+    },
+    "flows": [
+      [
+        0,
+        "Retrieval",
+        1,
+        "Correct",
+        20
+      ],
+      [
+        0,
+        "Retrieval",
+        1,
+        "Mapping",
+        1
+      ],
+      [
+        0,
+        "Retrieval",
+        1,
+        "Schema",
+        2
+      ],
+      [
+        0,
+        "Retrieval",
+        1,
+        "Adaptation",
+        11
+      ],
+      [
+        0,
+        "Adaptation",
+        1,
+        "Adaptation",
+        2
+      ],
+      [
+        0,
+        "Adjudicated",
+        1,
+        "Adjudicated",
+        1
+      ],
+      [
+        1,
+        "Correct",
+        2,
+        "Correct",
+        20
+      ],
+      [
+        1,
+        "Mapping",
+        2,
+        "Correct",
+        1
+      ],
+      [
+        1,
+        "Schema",
+        2,
+        "Schema",
+        2
+      ],
+      [
+        1,
+        "Adaptation",
+        2,
+        "Adaptation",
+        13
+      ],
+      [
+        1,
+        "Adjudicated",
+        2,
+        "Adjudicated",
+        1
+      ],
+      [
+        2,
+        "Correct",
+        3,
+        "Correct",
+        21
+      ],
+      [
+        2,
+        "Schema",
+        3,
+        "Correct",
+        2
+      ],
+      [
+        2,
+        "Adaptation",
+        3,
+        "Adaptation",
+        13
+      ],
+      [
+        2,
+        "Adjudicated",
+        3,
+        "Adjudicated",
+        1
+      ]
+    ],
+    "source": "retained diagnostic bundle, restored 2026-10-07; display scaling removed"
+  },
+  "Murder Mystery": {
+    "n": 100,
+    "initial_correct": 77,
+    "initial_wrong": 23,
+    "initial_stage": [
+      21,
+      0,
+      1,
+      1
+    ],
+    "initial_adjudicated": 0,
+    "eventual_stage": [
+      21,
+      0,
+      1,
+      1
+    ],
+    "states": [
+      [
+        "Initial diagnosis",
+        {
+          "Correct": 0,
+          "Retrieval": 21,
+          "Mapping": 0,
+          "Schema": 1,
+          "Adaptation": 1,
+          "Adjudicated": 0
+        }
+      ],
+      [
+        "After Gold Retrieval",
+        {
+          "Correct": 21,
+          "Retrieval": 0,
+          "Mapping": 0,
+          "Schema": 1,
+          "Adaptation": 1,
+          "Adjudicated": 0
+        }
+      ],
+      [
+        "After Gold Mapping",
+        {
+          "Correct": 21,
+          "Retrieval": 0,
+          "Mapping": 0,
+          "Schema": 1,
+          "Adaptation": 1,
+          "Adjudicated": 0
+        }
+      ],
+      [
+        "After Gold Schema",
+        {
+          "Correct": 22,
+          "Retrieval": 0,
+          "Mapping": 0,
+          "Schema": 0,
+          "Adaptation": 1,
+          "Adjudicated": 0
+        }
+      ]
+    ],
+    "final": {
+      "Correct": 22,
+      "Gold-key": 1,
+      "Adjudicated": 0
+    },
+    "flows": [
+      [
+        0,
+        "Retrieval",
+        1,
+        "Correct",
+        21
+      ],
+      [
+        0,
+        "Schema",
+        1,
+        "Schema",
+        1
+      ],
+      [
+        0,
+        "Adaptation",
+        1,
+        "Adaptation",
+        1
+      ],
+      [
+        1,
+        "Correct",
+        2,
+        "Correct",
+        21
+      ],
+      [
+        1,
+        "Schema",
+        2,
+        "Schema",
+        1
+      ],
+      [
+        1,
+        "Adaptation",
+        2,
+        "Adaptation",
+        1
+      ],
+      [
+        2,
+        "Correct",
+        3,
+        "Correct",
+        21
+      ],
+      [
+        2,
+        "Schema",
+        3,
+        "Correct",
+        1
+      ],
+      [
+        2,
+        "Adaptation",
+        3,
+        "Adaptation",
+        1
+      ]
+    ],
+    "source": "retained diagnostic bundle, restored 2026-10-07; display scaling removed"
+  }
+}

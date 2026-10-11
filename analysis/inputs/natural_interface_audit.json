@@ -1,0 +1,4889 @@
+{
+  "interpretation": "Recorded explicit input-key audit only; not semantic validation or hidden-history verification.",
+  "cases": [
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec055vn3qEqKHHTc",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec0VuKUjt1SZ7NYv",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec0wsMJZgWo7ICJm",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec1BjNQici8oD53a",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec1Ey0Fnt2RhnsmU",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec1zl5LvaatzGhFt",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec260hNUCEj109Dj",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec2K9NTFNw04xewq",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec2NJhNJ4umq2HFG",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec2ZTsqazBZ3LTWZ",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec2fEZkqcDWMh1JV",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec32C1ZEapBnCC0E",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec42yAdAZnQgoibP",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec44cTEfuCXCkHVs",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec4J0X5OLsY61yQm",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec5eA17Qr1ucNLUf",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec6sE2CRtD4drtHg",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec7qmSnbud4FHSqL",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec90hpebagUgiRpS",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recBhnXrUyTJ6WHIR",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recC9TQpdpRVRFzXO",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recEitMlu2rOnMmkn",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recEmTBhx2hgw6tPQ",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recF89DhiduLI4cNl",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recFwRHr3u5YpusE2",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recHn7vGOLWx9rnh3",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recIDiDKKrN61Auyr",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recIIMmhxoNeJkgye",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recIMcQfaQNa6vzsT",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recIm3gjvmPQiEZih",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recJJcOHhFeSaRpl4",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recJYLOV2gf7p1Mx2",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recJZ3QEfRKjYw9a7",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recMicVBcqy1xM1jq",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recNGovj5Pv0yxbfx",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recNfEV6AjS2ZFn5W",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recNu3MXkvWUzHZr9",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recO3hvCWRGiG0odN",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recOj90oKbiyjLcBd",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recQSmIQF2OGPfbL8",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recRTiyaRymerDJ4y",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recRVn0fyFjTbKdq4",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recReg13iV2HwJTaA",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recRnD2tQcPDMDxWY",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recTq9xGFD0HRvC7n",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recTroLaIR2mji5FF",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recUc29lMDBEvurYo",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recUdj6ZqNvWNlRKq",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recUu8izzZlaTKwVD",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recV1dB3itJjvXzLx",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recVE8cUNHpHZIAvL",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recVvpD8miVjmmyfe",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recWgLWFncNSime5A",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recWzUUYBN0NuXO2k",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recYCMJWH7IpcdqwE",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recZ13cwgDQf9jRd9",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recZ8cm5DvTme4AI4",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recZFq7Xrv9643qdd",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recZbxrocrxh9YENH",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recbMrWKlgp9uWgUK",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recbjh3mzGhAqPUhl",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reccGBrJaZk9DWZxk",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reccVBrYdwsB84fGy",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reccoJcrp4TJBNe1n",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recdVF1wby5PxfQU6",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:receDA9FwKsxwfPpw",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:receWdnr3u8wvTfPA",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:receo3UUzRvWCqyfA",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recf9kxVBiJc10e3c",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recftca7pyp2TCeAG",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reciHTTRFPWrbhWXA",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reciLRvawYgDdCzrg",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reciMW2VYi4jClmxk",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reciuppdQde4FGX1z",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reckYqR92oJkqJXkE",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reckbjNKYmpQlU5TY",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reclyy1tNCYpnp0UW",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recmFa3O6lOkMF9Zf",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recmI7EiLv72PxmYK",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recn3NhOhqAPLda16",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recoW8Ztae7Ruxru4",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recoiTJPGUmzAkief",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recp7VwqZlO6v7ly8",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recpki12iG9RUGrz9",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recqhfI2AdHd6MVew",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recr6XgkQQXYycWDm",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recr71WEmXEEMzRgq",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recrHBEJJoDTV05JR",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recs3PLPUEMiqg4P8",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recsPlJ0dQUiWr1fh",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recsiPyyjXBOPsSMv",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rect4iLrSfUwkNTno",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rectlyG9pCAAuWhoB",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recuIk9Y5lMFea9vK",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recuzuROrJQs1qQvR",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recwhMjaIdnLkGTgN",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recyPffUDqC2k7ZZO",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recyl3usDqb7ruXJx",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reczlLY9O5zHKaGL0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reczzzihL7btBH7RO",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:0:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:103:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:10:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:111:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:112:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:113:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:117:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:118:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:124:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:125:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:135:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:13:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:141:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:142:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:145:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:14:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:150:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:152:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:154:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:156:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:159:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:162:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:163:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:165:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:169:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:170:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:171:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:172:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:173:0",
+      "recorded_attempts": 5,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:174:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:179:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:17:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:187:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:188:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:191:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:192:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:199:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:200:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:201:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:202:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:203:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:205:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:206:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:20:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:213:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:215:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:220:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:221:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:225:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:226:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:227:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:228:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:229:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:22:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:230:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:232:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:235:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:236:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:237:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:241:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:242:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:243:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:248:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:24:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:25:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:26:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:27:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:28:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:29:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:34:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:39:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:40:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:47:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:48:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:49:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:52:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:53:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:55:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:56:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:59:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:60:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:64:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:66:0",
+      "recorded_attempts": 6,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:67:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:69:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:70:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:71:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:74:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:75:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:77:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:79:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:80:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:85:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:87:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:8:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:91:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:92:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:93:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:97:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "cf.llama-3.1-8b-instruct-fast",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:9:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec055vn3qEqKHHTc",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec0VuKUjt1SZ7NYv",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec0wsMJZgWo7ICJm",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec1BjNQici8oD53a",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec1Ey0Fnt2RhnsmU",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec1zl5LvaatzGhFt",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec260hNUCEj109Dj",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec2K9NTFNw04xewq",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec2NJhNJ4umq2HFG",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec2ZTsqazBZ3LTWZ",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec2fEZkqcDWMh1JV",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec32C1ZEapBnCC0E",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec42yAdAZnQgoibP",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec44cTEfuCXCkHVs",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec4J0X5OLsY61yQm",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec5eA17Qr1ucNLUf",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec6sE2CRtD4drtHg",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec7qmSnbud4FHSqL",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rec90hpebagUgiRpS",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recBhnXrUyTJ6WHIR",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recC9TQpdpRVRFzXO",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recEitMlu2rOnMmkn",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recEmTBhx2hgw6tPQ",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recF89DhiduLI4cNl",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recFwRHr3u5YpusE2",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recHn7vGOLWx9rnh3",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recIDiDKKrN61Auyr",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recIIMmhxoNeJkgye",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recIMcQfaQNa6vzsT",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recIm3gjvmPQiEZih",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recJJcOHhFeSaRpl4",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recJYLOV2gf7p1Mx2",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recJZ3QEfRKjYw9a7",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recMicVBcqy1xM1jq",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recNGovj5Pv0yxbfx",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recNfEV6AjS2ZFn5W",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recNu3MXkvWUzHZr9",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recO3hvCWRGiG0odN",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recOj90oKbiyjLcBd",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recQSmIQF2OGPfbL8",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recRTiyaRymerDJ4y",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recRVn0fyFjTbKdq4",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recReg13iV2HwJTaA",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recRnD2tQcPDMDxWY",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recTq9xGFD0HRvC7n",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recTroLaIR2mji5FF",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recUc29lMDBEvurYo",
+      "recorded_attempts": 8,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recUdj6ZqNvWNlRKq",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recUu8izzZlaTKwVD",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recV1dB3itJjvXzLx",
+      "recorded_attempts": 6,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recVE8cUNHpHZIAvL",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recVvpD8miVjmmyfe",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recWgLWFncNSime5A",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recWzUUYBN0NuXO2k",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recYCMJWH7IpcdqwE",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recZ13cwgDQf9jRd9",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recZ8cm5DvTme4AI4",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recZFq7Xrv9643qdd",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recZbxrocrxh9YENH",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recbMrWKlgp9uWgUK",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recbjh3mzGhAqPUhl",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reccGBrJaZk9DWZxk",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reccVBrYdwsB84fGy",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reccoJcrp4TJBNe1n",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recdVF1wby5PxfQU6",
+      "recorded_attempts": 5,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:receDA9FwKsxwfPpw",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:receWdnr3u8wvTfPA",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:receo3UUzRvWCqyfA",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recf9kxVBiJc10e3c",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recftca7pyp2TCeAG",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reciHTTRFPWrbhWXA",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reciLRvawYgDdCzrg",
+      "recorded_attempts": 5,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reciMW2VYi4jClmxk",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reciuppdQde4FGX1z",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reckYqR92oJkqJXkE",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reckbjNKYmpQlU5TY",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reclyy1tNCYpnp0UW",
+      "recorded_attempts": 7,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recmFa3O6lOkMF9Zf",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recmI7EiLv72PxmYK",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recn3NhOhqAPLda16",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recoW8Ztae7Ruxru4",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recoiTJPGUmzAkief",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recp7VwqZlO6v7ly8",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recpki12iG9RUGrz9",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recqhfI2AdHd6MVew",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recr6XgkQQXYycWDm",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recr71WEmXEEMzRgq",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recrHBEJJoDTV05JR",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recs3PLPUEMiqg4P8",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recsPlJ0dQUiWr1fh",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recsiPyyjXBOPsSMv",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rect4iLrSfUwkNTno",
+      "recorded_attempts": 5,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:rectlyG9pCAAuWhoB",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recuIk9Y5lMFea9vK",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recuzuROrJQs1qQvR",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recwhMjaIdnLkGTgN",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recyPffUDqC2k7ZZO",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:recyl3usDqb7ruXJx",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reczlLY9O5zHKaGL0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "gpqa_main",
+      "item_id": "gpqa_main:reczzzihL7btBH7RO",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:0:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:103:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:10:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:111:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:112:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:113:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:117:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:118:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:124:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:125:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:135:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:13:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:141:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:142:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:145:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:14:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:150:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:152:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:154:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:156:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:159:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:162:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:163:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:165:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:169:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:170:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:171:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:172:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:173:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:174:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:179:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:17:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:187:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:188:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:191:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:192:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:199:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:200:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:201:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:202:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:203:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:205:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:206:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:20:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:213:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:215:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:220:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:221:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:225:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:226:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:227:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:228:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:229:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:22:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:230:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:232:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:235:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:236:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:237:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:241:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:242:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:243:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:248:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:24:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:25:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:26:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:27:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:28:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:29:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:34:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:39:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:40:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:47:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:48:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:49:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:52:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:53:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:55:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:56:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:59:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:60:0",
+      "recorded_attempts": 5,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:64:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:66:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:67:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:69:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:70:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:71:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:74:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:75:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:77:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:79:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:80:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:85:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:87:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:8:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:91:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:92:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:93:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:97:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "dataset": "musr_murder_mystery",
+      "item_id": "musr_murder_mystery:9:0",
+      "recorded_attempts": 4,
+      "recorded_stages": [
+        "adaptation",
+        "mapping",
+        "retrieval",
+        "schema_induction"
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "stage": "retrieval",
+      "template": {
+        "prompt_version": "1.1-dev-6",
+        "task": "Generate solved source problems that are TRUE ANALOGIES of the supplied target, using the requested source_count as the desired number.\n\nDefinition: A true analogy has dissimilar concrete entities (objects, characters, and surface attributes), similar higher-order relations, and many, though not necessarily all, similar first-order relations. First-order relations connect entities, such as spatial, temporal, interactional, ordering, or assignment relations. Higher-order relations connect relations or events into a coherent system, especially causal links, enabling conditions, dependencies, and goal-means structure. A shared topic, vocabulary, event list, or final outcome is not enough.\n\nGeneration requirements:\n- Change the concrete entities and setting substantively. Prefer a different domain when it preserves the reasoning faithfully; changing only names is insufficient. Abstract relational roles may stay aligned despite different concrete participants.\n- Preserve a connected system of task-relevant relations and the higher-order structure that makes the inference work. Keep a consistent one-to-one alignment of participating roles within the shared relational system; do not merge incompatible roles or match isolated relations arbitrarily. Preserve causal direction, necessary conditions, dependencies, and relevant sequence; do not reverse or replace the mechanism merely to reproduce a similar outcome.\n- For formal, scientific, or constraint problems, preserve the actual logical or mathematical dependencies rather than inventing a causal story.\n- Each source must stand alone: provide its narrative, its own question, its own answer or outcome, and a concise, checkable solution explaining how its own evidence and relations support that answer. Keep sources distinct in concrete content while retaining the relevant relational structure.\n\nBefore including a source, check that entities differ, the important first-order relations are compatible, and the higher-order relational system is preserved. Exclude literal similarities, false analogies that match first-order relations but change higher-order structure, surface similarities, mere appearances, and unrelated examples. Revise weak candidates; if you cannot provide the requested number without weakening these criteria, return fewer sources and mark sufficiency partial or insufficient. Return an empty sources list with insufficient when none qualifies. These are generation checks, not independent verification of analogy quality.\n\nInformation boundary: The target reference answer is not supplied. Use the visible target problem to identify its relational structure; do not output or claim its answer. Do not emit target-to-source correspondences, target-specific role bindings, a shared schema, or target-specific solution commentary. Those belong to later stages. Return only the existing Retrieval output contract.",
+        "output_contract": {
+          "sources": [
+            {
+              "source_id": "s1",
+              "narrative": "text",
+              "source_question": "text",
+              "source_answer_or_outcome": "text",
+              "solution_or_explanation": "text"
+            }
+          ],
+          "sufficiency": "complete|partial|insufficient"
+        },
+        "allowed_data_keys": [
+          "source_count",
+          "target"
+        ]
+      }
+    },
+    {
+      "stage": "mapping",
+      "template": {
+        "prompt_version": "1.1-dev-6",
+        "task": "Perform a Gentner-style structural mapping between the retrieved source examples.\n\nThe goal of this stage is NOT to summarize the examples, reconstruct their narratives, or extract all evidence details. The goal is to identify the shared relational structure that can later be abstracted into a schema.\n\nFollow Structure-Mapping principles:\n\n1. Ignore superficial object attributes and surface similarities.\nDo not preserve names, locations, specific objects, or irrelevant descriptive details unless they play a relational role.\n\n2. Identify role-based correspondences.\nMap entities by their functional roles in the relational structure, not by their surface identity.\n\nExample:\nDo not map:\n\"Jonah = Alex\"\n\nInstead map:\n\"suspect_role = agent_with_motive_and_access\"\n\n3. Extract only important relational predicates:\nFocus on:\n- relations between entities\n- causal relations\n- enabling conditions\n- goal-means relations\n- inference-producing structures\n\nPrioritize relations over object descriptions.\n\n4. Prefer systematic relational systems.\nDo not list isolated similarities.\nSelect interconnected relations that form a coherent causal/logical structure.\n\n5. Extract higher-order relations when present.\nIdentify relations between relations.\n\nExample:\n\"motive + opportunity + evidence -> responsibility inference\"\n\n6. Record important differences only when they affect the analogical structure.\nIgnore irrelevant differences.\n\nReturn a compact structural representation.\n\nOutput format:\n\n{\n  \"role_correspondences\": [\n    {\n      \"role\": \"...\",\n      \"description\": \"...\"\n    }\n  ],\n\n  \"shared_relational_structure\": [\n    {\n      \"relation\": \"...\",\n      \"arguments\": [\"...\", \"...\"],\n      \"support\": \"brief explanation\"\n    }\n  ],\n\n  \"higher_order_relations\": [\n    {\n      \"relation\": \"...\",\n      \"components\": [\"...\", \"...\"],\n      \"meaning\": \"...\"\n    }\n  ],\n\n  \"important_differences\": [\n    \"...\"\n  ],\n\n  \"sufficiency\": \"sufficient | partial | insufficient\"\n}\n\nConstraints:\n- Keep output concise.\n- Do not reproduce source stories.\n- Do not create atomic statement lists.\n- Do not include full evidence chains.\n- Do not include all entities from examples.\n- Output only the relational structure needed for schema induction.",
+        "output_contract": {
+          "source_representations": [],
+          "selected_source_ids": [],
+          "excluded_sources": [],
+          "correspondences": [],
+          "important_differences": [],
+          "sufficiency": "sufficient|partial|insufficient"
+        },
+        "allowed_data_keys": [
+          "sources"
+        ]
+      }
+    },
+    {
+      "stage": "schema_induction",
+      "template": {
+        "prompt_version": "1.1-dev-6",
+        "task": "Induce a reusable problem schema from the supplied mapping package alone. Abstract supported common structure across the selected sources, retaining the relations that explain how their solutions or inferences work. This stage performs abstraction; it does not repeat concrete pairwise mapping. The original target and raw source artifacts are not supplied. Do not reconstruct them or introduce outside examples.\n\n1. Check the induction basis. Use selected_source_ids, source_representations, correspondences, important_differences, and excluded_sources to identify a connected relational system supported across at least two selected sources. Treat upstream sufficiency and generated source answers as claims, not guarantees. Do not use dissimilar, unmatched, uncertain, or internally inconsistent evidence as established common structure. If the selected subset is empty, incompatible, or lacks essential evidence, report partial or insufficient instead of inventing a schema. A single example does not establish a cross-source invariant in this procedure.\n\n2. Abstract by preserving shared solution-relevant relations and eliminating incidental concrete differences. Replace names, objects, and domain-specific attributes with functional role variables; define them in roles. In relations, retain essential first-order relations and higher-order causal or logical dependencies, argument structure, direction, sequencing when necessary, and the constraints that explain the solution. Distinguish structure-preserving differences from structure-violating differences. Never erase a necessary condition or causal conflict just to make the sources appear compatible. Do not require identical wording, outcomes, or surface attributes.\n\n3. Organize schema_text as a problem structure: initial state, goal or inference sought, resources or available information, constraints, solution plan or inference procedure, and expected outcome. Include only components supported by the mapping package; explicitly mark absent or uncertain components. Adapt the organization to scientific and formal reasoning without inventing agents, actions, or causality. Use an intermediate level of abstraction: general enough to admit different concrete instances, specific enough to explain why the procedure works. A topic, moral, bare outcome, story summary, or statement that a problem was solved is not a schema.\n\n4. State solution_or_inference_rule as a conditional procedure: IF the required relational configuration and conditions hold, THEN apply the supported steps or inference, leading to the stated outcome. Explain the causal or logical connection. Separate required conditions from optional features in applicability_conditions, preserving critical thresholds, ordering, exclusivity, or other constraints when supported. Do not turn an observed analogy into a universal theorem or invent numerical constants. Put conflicts, unknown conditions, unsupported extensions, and limits of generalization in boundaries_and_exceptions. Hypothetical failure conditions must be identified as such, not presented as observed counterexamples.\n\n5. In support, link every essential role, relation, condition, and rule step to source_ids and statement_ids or concrete mapping evidence already present in the package. Check whether the abstract schema can be instantiated consistently in every selected source and explains its supported plan/outcome. Record missing evidence or contradictions and reduce sufficiency when necessary. Do not silently repair source solutions or add missing premises. Keep concrete provenance in support; keep the reusable schema fields abstract and self-contained, since support is not forwarded to Adaptation.\n\nReturn the existing Schema Induction output contract. Complete means all essential components are adequately supported across the selected sources, not scientifically proven or guaranteed to transfer. Partial means a useful common structure remains but essential support or conditions are unresolved; clearly label any tentative rule. Insufficient means no defensible solution-relevant cross-source schema can be induced: explain what is missing in schema_text, use empty roles/relations/support when none is defensible, and do not assert a solution rule. Never provide target-specific bindings or an answer to an unseen problem.",
+        "output_contract": {
+          "schema_text": "text",
+          "roles": [],
+          "relations": [],
+          "applicability_conditions": [],
+          "solution_or_inference_rule": "text",
+          "boundaries_and_exceptions": [],
+          "support": [],
+          "sufficiency": "complete|partial|insufficient"
+        },
+        "allowed_data_keys": [
+          "mapping_package"
+        ]
+      }
+    },
+    {
+      "stage": "adaptation",
+      "template": {
+        "prompt_version": "1.1-dev-6",
+        "task": "Solve the supplied target by assessing and, when justified, instantiating the supplied schema. Role matching alone is not a completed solution: construct and execute a target-specific procedure, then check its result. Use only the visible target and schema; source stories, their solutions, mapping artifacts, and the target reference answer are not supplied. Give concise, checkable evidence and calculations rather than an unstructured narrative.\n\n1. Assess applicability. Compare the target's goal or question, available evidence/resources, relations, and constraints with the schema's required conditions and boundaries. For each essential condition, record supported, contradicted, or unknown with target evidence in constraint_checks. Shared vocabulary or an attractive answer choice is insufficient. Treat a partial schema and unresolved conditions cautiously. If schema is null, use not_provided; otherwise choose applicable, partial, not_applicable, or uncertain according to the evidence.\n\n2. Bind roles to the target. In target_bindings, identify each schema role, its concrete target participant or quantity, and the supporting target text. Keep bindings consistent with relation arguments and dependencies. Explicitly mark missing or ambiguous bindings. Preserve negation, quantifiers, ordering, exclusivity, units, and the exact question being asked. Do not substitute superficial character similarity for relational compatibility.\n\n3. Construct an executable target procedure in adaptations. For each used schema rule step, record the schema step, target-specific operation, parameters, required inputs, derived intermediate result, and reason for any change. Distinguish parameter substitution, deriving needed intermediate quantities or representations, and structure-preserving procedural extension. Merely replacing names or numbers is not enough when the procedure requires new intermediate results. Derive those results from target evidence or explicitly justified domain knowledge; label their provenance. Do not invent story facts or silently add premises. Preserve the mechanism and all essential conditions; if a change violates them, reject that schema step rather than force it to fit.\n\n4. Execute the procedure and verify the candidate answer against the target itself. Record passed, failed, or unresolved checks with evidence in constraint_checks and summarize them in verification_summary. Check every relevant target condition, not just the conditions shared with the schema. Recompute arithmetic and units where relevant; test ordering, assignments, exclusivity, alternatives, and consistency where relevant. For multiple-choice problems, connect the derived result to the actual displayed choice, including EXCEPT or NOT wording. An analogous candidate inference is a hypothesis until target reasoning supports it. If a candidate fails, revise the operation or reject the schema; never change the target to save the analogy. State unresolved ambiguity honestly.\n\n5. Report actual method use. In schema_usage_self_report, use used only when the instantiated schema materially supplies the solution procedure; partially_used when it contributes only part; rejected when it was assessed and discarded; independent_solution when present but not used; unavailable when absent. If schema-guided reasoning fails or is unjustified, you may solve independently: set fallback true and describe the independent route and its checks in verification_summary. Otherwise set fallback false. Do not claim success or causal schema use merely because the final answer seems plausible; this field is a self-report, not independent proof of use.\n\nReturn only the existing Adaptation output contract. Keep final_answer in the exact target answer format: the displayed option letter alone for multiple choice, or the requested free-text/value format otherwise. Keep explanation and checks in the other fields. Do not copy a schema outcome or a previous problem's answer into the target without computing and verifying it.",
+        "output_contract": {
+          "applicability": "applicable|partial|not_applicable|uncertain|not_provided",
+          "target_bindings": [],
+          "adaptations": [],
+          "constraint_checks": [],
+          "verification_summary": "text",
+          "final_answer": "option letter or free text",
+          "schema_usage_self_report": "used|partially_used|rejected|independent_solution|unavailable",
+          "fallback": false
+        },
+        "allowed_data_keys": [
+          "schema",
+          "target"
+        ]
+      }
+    }
+  ]
+}

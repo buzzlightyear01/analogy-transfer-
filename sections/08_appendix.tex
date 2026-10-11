@@ -1,48 +1,104 @@
 \section{Execution and Evaluation Details}
 \label{app:execution}
-This appendix summarizes the retained experimental protocol. It describes stage tasks and condition construction rather than presenting reconstructed wording as the exact historical prompts.
+This appendix specifies condition construction and accounting. The accompanying analysis inputs contain de-identified outcome metadata and retained aggregates. They do not constitute a new annotation of intermediate correctness. Archived experiments and the offline analyses in this manuscript are distinct: no model calls were added for this revision.
 
-\subsection{Phase-I condition identifiers}
-The reported 300-word analogy is condition~1, focused on the main scientific concept. Condition~2 uses one 600-word analogy; conditions~3 and~4 use two 300-word and three 200-word analogies. Conditions~5 and~6 are non-analogical explanations of nominal length 300 and 600 words. Conditions~7 and~8 are random same-domain and different-domain analogies. Condition~20 requests CoT and condition~21 requests solver-generated analogy, with a source-generation ceiling of 600 words. The broader study also contains condition~0, an unrestricted-concept analogy; it is not the selected main analogy in Table~\ref{tab:phase1}.
+\subsection{Scientific conditions and complete accuracies}
+Condition~1 is the main-concept 300-word teacher analogy; 2 is one 600-word analogy; 3 and 4 are two 300-word and three 200-word examples. Conditions~5 and 6 are 300/600-word explanations. Conditions~7 and 8 are random same-domain/other-domain analogies. Condition~20 requests CoT; 21 requests solver-generated analogy with a 600-word generation ceiling. The broader archive includes an unrestricted-concept condition~0, which is not the selected analogy here.
 
-Available Gemma response counts for conditions 1, 2, 3, 4, 5, 6, 7, 8, 20, and 21 are respectively 445, 444, 442, 441, 441, 444, 441, 444, 435, and 447. Llama, Qwen, and Mistral have 448 retained responses in each reported condition. Correctness transitions are computed by identifier intersection, with recorded missing final predictions treated as incorrect. A missing question record is distinct from a recorded response lacking a valid answer.
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Condition & Llama-8B & Qwen-8B & Mistral-7B & Gemma-31B \\
+\midrule
+Analogy, 300 words & 30.80 & 36.61 & 27.01 & 65.39 \\
+Analogy, 600 words & 31.25 & 36.83 & 28.79 & 68.69 \\
+Two analogies, $2\times300$ words & 31.92 & 35.27 & 30.58 & 69.00 \\
+Three analogies, $3\times200$ words & 31.03 & 39.73 & 26.56 & 69.61 \\
+Non-analogical explanation, 300 words & 31.03 & 37.72 & 27.68 & 68.25 \\
+Non-analogical explanation, 600 words & 30.58 & 36.61 & 25.89 & 68.47 \\
+Random same-domain analogy, 300 words & 31.25 & 36.61 & 27.68 & 64.85 \\
+Random other-domain analogy, 300 words & 29.69 & 39.73 & 28.13 & 67.12 \\
+Chain-of-thought & 32.14 & 42.19 & 16.96 & 66.52 \\
+Self-analogy & 28.79 & 43.30 & 22.54 & 64.06 \\
+\bottomrule
+\end{tabular}
+\caption{Full scientific accuracies (\%). Llama, Qwen, and Mistral retain all 448 question responses per condition. Gemma has differing retained question sets, so small column differences can include composition effects.}
+\label{tab:phase1}
+\end{table*}
 
-\subsection{Phase-II source construction and assignment}
-Sources contain \texttt{analogy}, \texttt{question}, \texttt{choices}, and \texttt{answer} fields. Generation preserves the target choice count, requests a single correct source option, and caps the source narrative below 1,000 words. Source-choice reordering uses seed 20260901; random-control assignment uses seed 20260903, with the source answer updated after reordering. Withholding the answer removes only \texttt{answer}. The older exploratory no-solution condition also withheld source choices and is not used as the main factorial comparison.
+Gemma response counts for conditions 1, 2, 3, 4, 5, 6, 7, 8, 20, and 21 are respectively 445, 444, 442, 441, 441, 444, 441, 444, 435, and 447. Correctness transitions use shared identifiers; a missing record differs from a retained response with no valid answer. Llama's final scientific set combines DeepInfra output with AvalAI recovery of failed requests. All 448 items remain in its accuracy denominator.
 
-Mean corresponding/random narrative lengths by task are 371.41/371.41 words for murder mysteries, 189.14/228.76 for object placements, and 296.57/256.95 for team allocation. Their weighted corpus-wide means are both 318.99 words. Four five-choice object-placement questions have same-story random controls. This is a remaining source-construction limitation rather than evidence of complete structural independence.
+At a nominal 600-word total, Mistral's one-, two-, and three-example accuracies are 28.79\%, 30.58\%, and 26.56\%; explicit mentions are 12.05\%, 19.42\%, and 29.24\%. Thus additional references in output do not independently validate schema induction. The mention screen is lexical and includes rejecting an example.
 
-\subsection{Interpreting the answer-position check}
-In the source-answer condition $B$, 51 of the 103 questions have matching source and target answer indices and 52 have differing indices. Pooling three Llama runs yields 153 and 156 response events, respectively; it does not yield that many independent questions. The counts of correct matching/differing events are 135/1 for 1B, 93/83 for 3B, 114/89 for 8B, and 121/102 for 70B. These counts reproduce the position-stratified accuracies in Section~\ref{sec:phase2results}.
+\subsection{Narrative source construction}
+Sources contain narrative, question, choices, and answer fields. Generation preserves choice count, requests one correct source option, and caps source narrative length below 1,000 words. Source-choice reordering uses seed 20260901 and random assignment uses seed 20260903; the source key is updated after reordering. Withholding deletes only the answer field. An earlier condition that also removed source choices is excluded from the factorial comparison.
 
-\section{Diagnostic Cohorts and State Accounting}
+Corresponding/random narrative lengths average 371.41/371.41 words for murder, 189.14/228.76 for objects, and 296.57/256.95 for teams. Both full-corpus means are 318.99 words because random assignment uses the same source set. Equality at corpus level does not imply item- or task-level length matching. The four same-story controls are recorded in the assignment metadata and excluded together from all cells in the sensitivity analysis.
+
+Small Llama models use Cloudflare, Llama-8B uses Novita FP8, and Llama-70B uses DeepInfra; Qwen uses DeepInfra FP8. These deployments do not isolate model size from infrastructure. Output extraction status is retained separately from correctness.
+
+\subsection{Conditional uncertainty and sensitivity}
+\label{app:sensitivity}
+For item $i$, average correctness over saved runs to obtain $\bar y_{ic}$ for cell $c$. Its contrast is $d_i=\bar y_{iB}-\bar y_{iA}-\bar y_{iD}+\bar y_{iC}$. The reported interaction is $100\sum_i d_i/n$. Group identifiers combine task and story ID. Each bootstrap draw samples 88 groups with replacement, retaining every question in a selected group and all its cells/runs. The draw's statistic divides by its number of sampled questions, which may vary with cluster size. The percentile interval uses 20,000 draws and seed 20261012.
+
+This procedure holds constructed sources and the permutation fixed. Source material appears in different cells across questions; resampling target groups does not address every dependency or all possible new assignments. The intervals describe conditional resampling stability, not a confirmatory causal test. No adjustment for exploring six model interactions is applied.
+
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+Model & Invalid $A$ & Invalid $B$ & Invalid $C$ & Invalid $D$ & Valid-all $n$ & Valid-all $\Delta$ & Exclude same-story $\Delta$ \\
+\midrule
+Llama-1B & 24 & 14 & 29 & 4 & 80 & 7.92 & $-0.34$ \\
+Llama-3B & 2 & 4 & 0 & 5 & 98 & $-0.34$ & $-1.35$ \\
+Llama-8B & 0 & 1 & 0 & 0 & 102 & 14.05 & 13.80 \\
+Llama-70B & 13 & 9 & 8 & 7 & 88 & 14.02 & 13.13 \\
+Qwen-14B & 24 & 23 & 40 & 39 & 58 & 12.07 & 9.60 \\
+Qwen-32B & 13 & 19 & 20 & 25 & 65 & 10.00 & 12.63 \\
+\bottomrule
+\end{tabular}
+\caption{Sensitivity diagnostics. Invalid counts are response events, out of 309 per Llama cell or 206 per Qwen cell. Valid-all keeps questions valid in every cell and execution, a post-output selected subset. Excluding same-story controls uses the same 99 questions in all cells. Interactions are percentage points.}
+\label{tab:sensitivity}
+\end{table*}
+
+In $B$, 51 questions have matching source/target answer indices and 52 differ. Three Llama runs yield 153/156 events, not that many independent questions. Correct matching/differing counts are 135/1 for 1B, 93/83 for 3B, 114/89 for 8B, and 121/102 for 70B. The differing strata may differ in difficulty; these counts are not a randomized reordering experiment.
+
+\section{Diagnostic Accounting and Recoverable Interfaces}
 \label{app:states}
-Table~\ref{tab:states} reports the actual Phase-III counts. Some retained visualization assets display counts multiplied by two. That display transformation preserves percentages but adds no observations; the paper uses the original 100-item dataset cohorts and the 73/43 initial failure cohorts throughout.
-
-\begin{table}[tbp]
-\centering
-\small
+\begin{table}[t]
+\centering\small
 \begin{tabular}{@{}lrrrrr@{}}
 \toprule
-State & Rescued & R & M & S & A \\
+State & Success & R & M & S & A \\
 \midrule
-\multicolumn{6}{l}{GPQA: 73 initial failures} \\
+\multicolumn{6}{l}{GPQA: 73 initial Llama errors} \\
 Initial & 0 & 73 & 0 & 0 & 0 \\
 After R & 17 & 0 & 26 & 7 & 23 \\
 After M & 17 & 0 & 0 & 15 & 41 \\
 After S & 18 & 0 & 0 & 0 & 55 \\
 \midrule
-\multicolumn{6}{l}{Murder mysteries: 43 initial failures} \\
+\multicolumn{6}{l}{Murder: 43 initial Llama errors} \\
 Initial & 0 & 19 & 3 & 0 & 21 \\
 After R & 11 & 0 & 6 & 0 & 26 \\
 After M & 14 & 0 & 0 & 1 & 28 \\
 After S & 15 & 0 & 0 & 0 & 28 \\
 \bottomrule
 \end{tabular}
-\caption{Actual cohort counts over cumulative repair. Each row partitions the same initial failures into rescued paths and the current first inadequate stage: retrieval (R), mapping (M), schema (S), or adaptation (A). Final gold adaptation is excluded.}
+\caption{Retained aggregate state accounting. Each row conserves its original error cohort. ``After'' denotes cumulative replacement; successful earlier continuations are carried forward. Final oracle adaptation is excluded.}
 \label{tab:states}
 \end{table}
 
-The stage burdens accumulated across interventions overlap, unlike the mutually exclusive states in each row. GPQA has 73 paths needing retrieval correction, 26 needing mapping correction, 15 needing schema correction, and 55 reaching inadequate adaptation. For murder mysteries, these counts are 19, 6, 1, and 28. A path can contribute to several of these totals; summing them does not count failed questions.
+The overlapping stage burdens are R/M/S/A = 73/26/15/55 for GPQA and 19/6/1/28 for murder. Summing these would count paths more than once. These values come from retained aggregate diagnostics. Some restored graphics multiply observed counts by two; the present analysis returns to 100 questions per task and never treats scaled counts as additional observations. Older 50-item reports are not mixed with the 100-item results.
 
-The saved Phase-III base-model identifier is \texttt{cf.llama-3.1-8b-instruct-fast}. No completed second-model comparison is included in this manuscript. Natural successes are 27 GPQA and 57 murder-mystery questions; cumulative genuine upstream rescue contributes 18 and 15, respectively. The agreement of reference-informed final outputs is distinct from these base-model continuations.
+The Llama identifier is \texttt{cf.llama-3.1-8b-instruct-fast}; the contextual second model is \texttt{deepseek-v4-flash}. Natural direct/staged transitions (incorrect-to-correct / correct-to-incorrect) are 15/13 and 10/16 for Llama GPQA/murder, and 19/14 and 11/12 for DeepSeek. These are question-matched observed outputs, not a token-matched architecture comparison.
+
+A recoverable individual DeepSeek case is \texttt{musr\_murder\_mystery:87:0}. The saved continuation is marked completed and oracle-assisted, dated 2026-10-02. Its chain records original base-model R and M, a strong manual S replacement, and base-model A rerun. The schema reference contrasts method-specific evidence with generic motive/access. The extract preserves the empty original schema, the initial unresolved schema check, the replacement, provenance, and answer A-to-B transition. The stored ``strong manual replacement'' label is a provenance label, not proof of independent human validation or verified authorship by a particular reference model.
+
+\subsection{Recorded input-key audit}
+For the 400 natural staged cases in the matched Llama/DeepSeek cohorts, recorded prompt objects expose only the expected input keys: R receives \texttt{target, source\_count}; M receives \texttt{sources}; S receives \texttt{mapping\_package}; and A receives \texttt{target, schema}. The audit covers every recorded attempt. It finds four stage templates, all tagged \texttt{1.1-dev-6}. Among 400 workflows, 391 record four attempts, five record five, two record six, one records seven, and one records eight. These counts include retries and exclude oracle continuations.
+
+This mechanical audit validates recorded explicit interfaces, not the correctness of outputs, absence of indirect target information in generated sources, or provider-side state. The recorded M task includes suspect/motive examples even for GPQA. We preserve this historical wording and report the possible domain bias rather than silently changing a prompt and attributing old outcomes to the new wording.
+
+\subsection{Offline analysis package}
+The bundled outcome metadata, source-assignment IDs, stage templates, aggregate states, and compact case extract support reproducing the new offline statistics and both figures without model calls. \texttt{scripts/analyze\_retained\_results.py} checks cohort sizes, matching identifiers, four-cell coverage, and the permutation; \texttt{scripts/build\_figures.py} uses bundled counts. A rendering adapter accepts a caller-supplied stateless completion function and instantiates the recorded four contracts without a built-in API connection; it is not the historical retry implementation. The analysis manifest records input hashes. This package reproduces reported summaries, not the original live API experiments or a fresh semantic annotation of all intermediate artifacts. Historical model aliases and human review details limit complete live replication.
