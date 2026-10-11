@@ -11,7 +11,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -23,7 +26,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -35,7 +41,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -47,7 +56,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -59,7 +71,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -71,7 +86,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -83,7 +101,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -95,7 +116,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -107,7 +131,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -119,7 +146,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -131,7 +161,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -143,7 +176,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -155,7 +191,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -167,7 +206,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -179,7 +221,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -191,7 +236,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -203,7 +251,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -215,7 +266,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -227,7 +281,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -239,7 +296,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -251,7 +311,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -263,7 +326,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -275,7 +341,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -287,7 +356,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -299,7 +371,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -311,7 +386,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -323,7 +401,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -335,7 +416,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -347,7 +431,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -359,7 +446,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -371,7 +461,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -383,7 +476,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -395,7 +491,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -407,7 +506,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -419,7 +521,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -431,7 +536,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -443,7 +551,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -455,7 +566,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -467,7 +581,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -479,7 +596,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -491,7 +611,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -503,7 +626,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -515,7 +641,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -527,7 +656,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -539,7 +671,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -551,7 +686,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -563,7 +701,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -575,7 +716,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -587,7 +731,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -599,7 +746,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -611,7 +761,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -623,7 +776,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -635,7 +791,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -647,7 +806,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -659,7 +821,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -671,7 +836,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -683,7 +851,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -695,7 +866,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -707,7 +881,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -719,7 +896,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -731,7 +911,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -743,7 +926,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -755,7 +941,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -767,7 +956,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -779,7 +971,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -791,7 +986,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -803,7 +1001,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -815,7 +1016,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -827,7 +1031,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -839,7 +1046,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -851,7 +1061,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -863,7 +1076,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -875,7 +1091,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -887,7 +1106,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -899,7 +1121,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -911,7 +1136,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -923,7 +1151,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -935,7 +1166,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -947,7 +1181,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -959,7 +1196,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -971,7 +1211,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -983,7 +1226,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -995,7 +1241,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1007,7 +1256,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1019,7 +1271,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1031,7 +1286,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1043,7 +1301,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1055,7 +1316,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1067,7 +1331,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1079,7 +1346,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1091,7 +1361,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1103,7 +1376,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete|partial|insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1115,7 +1391,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1127,7 +1406,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1139,7 +1421,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1151,7 +1436,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1163,7 +1451,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1175,7 +1466,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1187,7 +1481,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1199,7 +1496,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1211,7 +1511,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1223,7 +1526,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1235,7 +1541,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1247,7 +1556,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1259,7 +1571,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1271,7 +1586,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1283,7 +1601,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1295,7 +1616,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1307,7 +1631,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1319,7 +1646,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1331,7 +1661,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1343,7 +1676,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1355,7 +1691,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1367,7 +1706,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1379,7 +1721,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1391,7 +1736,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1403,7 +1751,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1415,7 +1766,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1427,7 +1781,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1439,7 +1796,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1451,7 +1811,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1463,7 +1826,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1475,7 +1841,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1487,7 +1856,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1499,7 +1871,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1511,7 +1886,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1523,7 +1901,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1535,7 +1916,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1547,7 +1931,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1559,7 +1946,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1571,7 +1961,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1583,7 +1976,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1595,7 +1991,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1607,7 +2006,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1619,7 +2021,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1631,7 +2036,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1643,7 +2051,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1655,7 +2066,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1667,7 +2081,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1679,7 +2096,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1691,7 +2111,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1703,7 +2126,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1715,7 +2141,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1727,7 +2156,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1739,7 +2171,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1751,7 +2186,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1763,7 +2201,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1775,7 +2216,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1787,7 +2231,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1799,7 +2246,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1811,7 +2261,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1823,7 +2276,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1835,7 +2291,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1847,7 +2306,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1859,7 +2321,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1871,7 +2336,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1883,7 +2351,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1895,7 +2366,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1907,7 +2381,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1919,7 +2396,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1931,7 +2411,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1943,7 +2426,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1955,7 +2441,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1967,7 +2456,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1979,7 +2471,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -1991,7 +2486,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2003,7 +2501,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2015,7 +2516,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2027,7 +2531,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2039,7 +2546,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2051,7 +2561,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2063,7 +2576,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2075,7 +2591,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2087,7 +2606,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2099,7 +2621,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2111,7 +2636,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2123,7 +2651,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2135,7 +2666,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2147,7 +2681,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2159,7 +2696,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2171,7 +2711,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2183,7 +2726,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2195,7 +2741,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2207,7 +2756,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2219,7 +2771,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2231,7 +2786,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2243,7 +2801,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2255,7 +2816,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2267,7 +2831,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2279,7 +2846,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2291,7 +2861,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2303,7 +2876,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2315,7 +2891,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2327,7 +2906,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2339,7 +2921,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2351,7 +2936,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2363,7 +2951,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2375,7 +2966,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2387,7 +2981,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "sufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -2399,7 +2996,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2411,7 +3011,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2423,7 +3026,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2435,7 +3041,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2447,7 +3056,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2459,7 +3071,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "deepseek-v4-flash",
@@ -2471,7 +3086,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2483,7 +3101,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2495,7 +3116,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2507,7 +3131,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2519,7 +3146,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2531,7 +3161,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2543,7 +3176,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2555,7 +3191,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2567,7 +3206,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2579,7 +3221,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2591,7 +3236,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "deepseek-v4-flash",
@@ -2603,7 +3251,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2615,7 +3266,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2627,7 +3281,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2639,7 +3296,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2651,7 +3311,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2663,7 +3326,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2675,7 +3341,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2687,7 +3356,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2699,7 +3371,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2711,7 +3386,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2723,7 +3401,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2735,7 +3416,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2747,7 +3431,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2759,7 +3446,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2771,7 +3461,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2783,7 +3476,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2795,7 +3491,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2807,7 +3506,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2819,7 +3521,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2831,7 +3536,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2843,7 +3551,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2855,7 +3566,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2867,7 +3581,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2879,7 +3596,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2891,7 +3611,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2903,7 +3626,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2915,7 +3641,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2927,7 +3656,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2939,7 +3671,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2951,7 +3686,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2963,7 +3701,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2975,7 +3716,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -2987,7 +3731,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "deepseek-v4-flash",
@@ -2999,7 +3746,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3011,7 +3761,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3023,7 +3776,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3035,7 +3791,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3047,7 +3806,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3059,7 +3821,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3071,7 +3836,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3083,7 +3851,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "deepseek-v4-flash",
@@ -3095,7 +3866,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3107,7 +3881,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3119,7 +3896,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3131,7 +3911,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3143,7 +3926,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3155,7 +3941,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3167,7 +3956,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3179,7 +3971,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3191,7 +3986,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3203,7 +4001,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3215,7 +4016,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3227,7 +4031,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3239,7 +4046,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3251,7 +4061,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3263,7 +4076,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3275,7 +4091,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3287,7 +4106,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3299,7 +4121,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3311,7 +4136,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3323,7 +4151,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3335,7 +4166,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3347,7 +4181,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3359,7 +4196,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3371,7 +4211,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3383,7 +4226,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3395,7 +4241,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3407,7 +4256,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3419,7 +4271,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3431,7 +4286,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3443,7 +4301,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3455,7 +4316,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3467,7 +4331,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3479,7 +4346,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3491,7 +4361,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3503,7 +4376,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3515,7 +4391,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3527,7 +4406,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3539,7 +4421,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3551,7 +4436,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3563,7 +4451,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3575,7 +4466,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3587,7 +4481,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3599,7 +4496,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3611,7 +4511,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3623,7 +4526,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3635,7 +4541,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3647,7 +4556,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3659,7 +4571,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3671,7 +4586,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3683,7 +4601,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3695,7 +4616,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3707,7 +4631,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3719,7 +4646,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3731,7 +4661,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3743,7 +4676,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3755,7 +4691,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3767,7 +4706,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3779,7 +4721,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3791,7 +4736,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3803,7 +4751,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3815,7 +4766,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "deepseek-v4-flash",
@@ -3827,7 +4781,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3839,7 +4796,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3851,7 +4811,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3863,7 +4826,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3875,7 +4841,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3887,7 +4856,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3899,7 +4871,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3911,7 +4886,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3923,7 +4901,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3935,7 +4916,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3947,7 +4931,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3959,7 +4946,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3971,7 +4961,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3983,7 +4976,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -3995,7 +4991,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4007,7 +5006,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "deepseek-v4-flash",
@@ -4019,7 +5021,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4031,7 +5036,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4043,7 +5051,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4055,7 +5066,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4067,7 +5081,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4079,7 +5096,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "deepseek-v4-flash",
@@ -4091,7 +5111,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4103,7 +5126,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4115,7 +5141,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4127,7 +5156,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4139,7 +5171,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4151,7 +5186,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4163,7 +5201,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4175,7 +5216,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4187,7 +5231,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4199,7 +5246,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4211,7 +5261,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4223,7 +5276,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4235,7 +5291,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4247,7 +5306,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4259,7 +5321,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4271,7 +5336,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4283,7 +5351,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4295,7 +5366,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4307,7 +5381,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4319,7 +5396,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4331,7 +5411,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4343,7 +5426,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4355,7 +5441,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4367,7 +5456,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4379,7 +5471,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4391,7 +5486,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4403,7 +5501,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4415,7 +5516,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "deepseek-v4-flash",
@@ -4427,7 +5531,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4439,7 +5546,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4451,7 +5561,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4463,7 +5576,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4475,7 +5591,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4487,7 +5606,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4499,7 +5621,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4511,7 +5636,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4523,7 +5651,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4535,7 +5666,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "deepseek-v4-flash",
@@ -4547,7 +5681,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4559,7 +5696,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "partial",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4571,7 +5711,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4583,7 +5726,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4595,7 +5741,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4607,7 +5756,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4619,7 +5771,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4631,7 +5786,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4643,7 +5801,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4655,7 +5816,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4667,7 +5831,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4679,7 +5846,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4691,7 +5861,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4703,7 +5876,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "deepseek-v4-flash",
@@ -4715,7 +5891,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4727,7 +5906,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "insufficient",
+      "adaptation_schema_content_absent": true
     },
     {
       "model": "deepseek-v4-flash",
@@ -4739,7 +5921,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4751,7 +5936,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4763,7 +5951,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4775,7 +5966,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4787,7 +5981,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     },
     {
       "model": "deepseek-v4-flash",
@@ -4799,7 +5996,10 @@
         "mapping",
         "retrieval",
         "schema_induction"
-      ]
+      ],
+      "recorded_parent_artifacts_match": true,
+      "adaptation_schema_sufficiency": "complete",
+      "adaptation_schema_content_absent": false
     }
   ],
   "templates": [

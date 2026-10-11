@@ -199,7 +199,9 @@
       "baseline_correct": 25,
       "framework_correct": 27,
       "incorrect_to_correct": 15,
-      "correct_to_incorrect": 13
+      "correct_to_incorrect": 13,
+      "no_schema_content": 10,
+      "correct_without_schema_content": 3
     },
     {
       "model": "cf.llama-3.1-8b-instruct-fast",
@@ -208,7 +210,9 @@
       "baseline_correct": 63,
       "framework_correct": 57,
       "incorrect_to_correct": 10,
-      "correct_to_incorrect": 16
+      "correct_to_incorrect": 16,
+      "no_schema_content": 2,
+      "correct_without_schema_content": 1
     },
     {
       "model": "deepseek-v4-flash",
@@ -217,7 +221,9 @@
       "baseline_correct": 58,
       "framework_correct": 63,
       "incorrect_to_correct": 19,
-      "correct_to_incorrect": 14
+      "correct_to_incorrect": 14,
+      "no_schema_content": 4,
+      "correct_without_schema_content": 3
     },
     {
       "model": "deepseek-v4-flash",
@@ -226,7 +232,9 @@
       "baseline_correct": 78,
       "framework_correct": 77,
       "incorrect_to_correct": 11,
-      "correct_to_incorrect": 12
+      "correct_to_incorrect": 12,
+      "no_schema_content": 7,
+      "correct_without_schema_content": 5
     }
   ],
   "inputs": [
@@ -248,7 +256,7 @@
     },
     {
       "file": "analysis/inputs/natural_interface_audit.json",
-      "sha256": "98762964a1486d1e3068019bdf392f21631040ed54cd7d6771c1b9f8427ee781"
+      "sha256": "64c7e3d8a382d7feaae48dd3fecd993097b10d4b73538b1dc444a6f498dce716"
     },
     {
       "file": "analysis/inputs/random_assignments.json",

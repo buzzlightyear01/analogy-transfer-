@@ -9,7 +9,7 @@ ACL anonymous review manuscript derived from the user's thesis. The main text is
 - `analysis/retained_results_audit.json`: offline analysis output and input hashes.
 - `scripts/analyze_retained_results.py`: paired question/story analyses; no API calls.
 - `scripts/build_figures.py`: figures from bundled counts.
-- `scripts/framework_contracts.py`: recorded-contract rendering adapter, accepting a caller-supplied stateless completion function; not the historical API/retry implementation.
+- `scripts/framework_contracts.py`: recorded-contract rendering/continuation adapter, accepting a caller-supplied stateless completion function; not the historical API/retry implementation.
 - `MANUSCRIPT_REVIEW_FA.md`: internal review of the written paper.
 - `PAPER_NOTES_FA.md`: provenance and version notes.
 - `planning/`: prior outline and outline-review records.

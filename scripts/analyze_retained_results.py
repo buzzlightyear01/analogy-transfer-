@@ -85,6 +85,7 @@ def main():
                 assert set(found) == ids and all(len(v) == 1 for v in found.values())
                 for item in sorted(found):
                     stages = found[item][0]['result']['stages']
+                    target = json.loads(stages['retrieval']['attempts'][0]['prompt'])['allowed_data']['target']
                     attempts = 0
                     for stage, content in stages.items():
                         for a in content['attempts']:
@@ -92,12 +93,37 @@ def main():
                             prompt = json.loads(a['prompt'])
                             allowed = set(prompt['allowed_data'])
                             assert allowed == expected[stage], (model, dataset, item, stage, allowed)
+                            data = prompt['allowed_data']
+                            if stage == 'retrieval':
+                                assert data['target'] == target and data['source_count'] == 3
+                            elif stage == 'mapping':
+                                assert data['sources'] == stages['retrieval']['output']
+                            elif stage == 'schema_induction':
+                                assert data['mapping_package'] == stages['mapping']['output']
+                            elif stage == 'adaptation':
+                                schema_out = stages['schema_induction']['output']
+                                keys = ('schema_text', 'roles', 'relations', 'applicability_conditions',
+                                        'solution_or_inference_rule', 'boundaries_and_exceptions', 'sufficiency')
+                                expected_schema = {k:schema_out[k] for k in keys if k in schema_out} if schema_out else None
+                                assert data['schema'] == expected_schema
+                                assert data['target'] == target
                             template = {k:v for k,v in prompt.items() if k != 'allowed_data'}
                             template['allowed_data_keys'] = sorted(allowed)
                             digest = hashlib.sha256(json.dumps(template, sort_keys=True).encode()).hexdigest()
                             prompt_templates[digest] = dict(stage=stage, template=template)
+                    # Inspect the schema actually supplied to the last A attempt,
+                    # not merely S's text field or a claimed use flag.
+                    schema = json.loads(stages['adaptation']['attempts'][-1]['prompt'])['allowed_data']['schema'] or {}
+                    core = ('schema_text', 'roles', 'relations', 'applicability_conditions',
+                            'solution_or_inference_rule', 'boundaries_and_exceptions')
+                    absent = all(not schema.get(k) for k in core)
+                    if absent:
+                        assert schema.get('sufficiency') in {'insufficient', 'sufficient', 'partial', 'complete'}
                     trace_checks.append(dict(model=model, dataset=dataset, item_id=item,
-                                             recorded_attempts=attempts, recorded_stages=sorted(stages)))
+                                             recorded_attempts=attempts, recorded_stages=sorted(stages),
+                                             recorded_parent_artifacts_match=True,
+                                             adaptation_schema_sufficiency=schema.get('sufficiency'),
+                                             adaptation_schema_content_absent=absent))
         assert len(trace_checks) == 400
         (inputs / 'natural_interface_audit.json').write_text(json.dumps(dict(
             interpretation='Recorded explicit input-key audit only; not semantic validation or hidden-history verification.',
@@ -178,18 +204,34 @@ def main():
                             excluding_same_story_n=int(different_story.sum()),
                             excluding_same_story_interaction_pp=float(contrasts[different_story].mean() * 100)))
     natural = json.loads((inputs / 'natural_framework_outcomes.json').read_text())
+    states = json.loads((inputs / 'llama_retained_states.json').read_text())
+    for r in states:
+        if r['state'] == 'All initial outcomes':
+            assert r['denominator'] == 100
+        elif r['state'] == 'After gold Adaptation':
+            assert sum(int(r[k] or 0) for k in ['correct', 'gold_key_match', 'adjudicated']) == r['denominator']
+        else:
+            assert sum(int(r[k] or 0) for k in ['correct', 'retrieval', 'mapping', 'schema', 'adaptation']) == r['denominator']
     groups = defaultdict(list)
     for r in natural:
         assert isinstance(r['baseline_correct'], bool) and isinstance(r['framework_correct'], bool)
         groups[r['model'], r['dataset']].append(r)
     natural_summary = []
+    interface = json.loads((inputs / 'natural_interface_audit.json').read_text())
+    schema_flags = {(r['model'], r['dataset'], r['item_id']): r['adaptation_schema_content_absent'] for r in interface['cases']}
     for (model, dataset), rs in groups.items():
         assert len(rs) == len({r['item_id'] for r in rs}) == 100
         natural_summary.append(dict(model=model, dataset=dataset, n=100,
                                     baseline_correct=sum(r['baseline_correct'] for r in rs),
                                     framework_correct=sum(r['framework_correct'] for r in rs),
                                     incorrect_to_correct=sum(not r['baseline_correct'] and r['framework_correct'] for r in rs),
-                                    correct_to_incorrect=sum(r['baseline_correct'] and not r['framework_correct'] for r in rs)))
+                                    correct_to_incorrect=sum(r['baseline_correct'] and not r['framework_correct'] for r in rs),
+                                    no_schema_content=sum(schema_flags[model, dataset, r['item_id']] for r in rs),
+                                    correct_without_schema_content=sum(schema_flags[model, dataset, r['item_id']] and r['framework_correct'] for r in rs)))
+        if model == 'cf.llama-3.1-8b-instruct-fast':
+            label = 'GPQA' if dataset == 'gpqa_main' else 'Murder Mystery'
+            initial = next(r for r in states if r['dataset'] == label and r['state'] == 'All initial outcomes')
+            assert initial['correct'] == natural_summary[-1]['framework_correct']
     manifest = [{'file':str(p.relative_to(BASE)), 'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
                 for p in sorted(inputs.glob('*.json'))]
     result = dict(analysis_date='2026-10-12', seed=20261012, bootstrap_draws=20000,

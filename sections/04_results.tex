@@ -4,6 +4,24 @@
 \label{sec:phase1results}
 The concept-focused 300-word analogy does not exceed both random controls for any of the four solvers in the retained full-cohort results (Table~\ref{tab:phase1} in Appendix~\ref{app:execution}). Llama performs slightly better with a same-domain random source; Qwen matches that control and trails the other-domain control; Mistral trails both. Gemma lies between its random controls, with the additional composition caveat. This does not show that relation is irrelevant in every item; it shows that accuracy here does not establish a general benefit of the intended relation.
 
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Model & $A$ & $B$ & $C$ & $D$ & $\Delta$ & 95\% interval \\
+\midrule
+Llama-1B & 38.51 & 44.01 & 38.51 & 44.01 & 0.00 & [$-15.46$, 15.00] \\
+Llama-3B & 54.05 & 56.96 & 40.13 & 43.04 & 0.00 & [$-9.67$, 9.33] \\
+Llama-8B & 52.10 & 65.70 & 52.43 & 51.78 & 14.24 & [5.84, 22.34] \\
+Llama-70B & 59.22 & 72.17 & 53.07 & 53.07 & 12.94 & [5.35, 21.28] \\
+Qwen-14B & 66.02 & 75.24 & 60.68 & 60.68 & 9.22 & [1.94, 17.00] \\
+Qwen-32B & 68.93 & 74.27 & 65.53 & 58.25 & 12.62 & [1.50, 23.79] \\
+\bottomrule
+\end{tabular}
+\caption{Mean accuracy (\%) on the same 103 MuSR questions; $\Delta$ and interval endpoints are percentage points. Intervals resample 88 target-story groups while retaining each question's four cells and all executions. They are conditional on the fixed source corpus, assignment, and prompts; no multiplicity-adjusted or source-regeneration inference is claimed.}
+\label{tab:factorial}
+\end{table*}
+
 \paragraph{The baseline changes the interpretation.}
 Mistral improves from 16.96\% with CoT to 27.01\% with the 300-word teacher analogy, but a 300-word non-analogical explanation reaches 27.68\%. A gain against CoT is therefore insufficient evidence that analogical presentation supplies the advantage. For Qwen, self-analogy reaches 43.30\%, compared with 42.19\% for CoT and 36.61\% for the teacher analogy. The conditions differ in the assistance and requested procedure; they are not interchangeable measures of one capacity.
 
@@ -24,23 +42,7 @@ Qwen refers to the 300-word example in 31.70\% of all responses. The rate is 31.
 \label{sec:phase2results}
 Table~\ref{tab:factorial} reports every cell and the interaction. Four models show positive interactions: Llama-8B, Llama-70B, Qwen-14B, and Qwen-32B. Their conditional story-resampling intervals remain above zero. The 1B and 3B models have zero mean interaction, despite different baseline accuracies and potentially useful corresponding source content. We interpret the pattern within the retained design, without a universal scaling or hidden-cognition claim.
 
-\begin{table*}[t]
-\centering\small
-\begin{tabular}{@{}lrrrrrr@{}}
-\toprule
-Model & $A$ & $B$ & $C$ & $D$ & $\Delta$ & 95\% interval \\
-\midrule
-Llama-1B & 38.51 & 44.01 & 38.51 & 44.01 & 0.00 & [$-15.46$, 15.00] \\
-Llama-3B & 54.05 & 56.96 & 40.13 & 43.04 & 0.00 & [$-9.67$, 9.33] \\
-Llama-8B & 52.10 & 65.70 & 52.43 & 51.78 & 14.24 & [5.84, 22.34] \\
-Llama-70B & 59.22 & 72.17 & 53.07 & 53.07 & 12.94 & [5.35, 21.28] \\
-Qwen-14B & 66.02 & 75.24 & 60.68 & 60.68 & 9.22 & [1.94, 17.00] \\
-Qwen-32B & 68.93 & 74.27 & 65.53 & 58.25 & 12.62 & [1.50, 23.79] \\
-\bottomrule
-\end{tabular}
-\caption{Mean accuracy (\%) on the same 103 MuSR questions; $\Delta$ and interval endpoints are percentage points. Intervals resample 88 target-story groups while retaining each question's four cells and all executions. They are conditional on the fixed source corpus, assignment, and prompts; no multiplicity-adjusted or source-regeneration inference is claimed.}
-\label{tab:factorial}
-\end{table*}
+
 
 The four-cell view matters. Llama-8B gains 13.59 points when a corresponding source answer is added, while the random-answer contrast is $-0.65$. Qwen-32B gains 5.34 points under correspondence and loses 7.28 under random assignment: its interaction is not wholly improvement from useful guidance. A positive interaction distinguishes conditions, not necessarily a uniformly beneficial intervention.
 
@@ -72,6 +74,9 @@ DeepSeek & Murder & 78 & 77 \\
 \caption{Correct answers among the same 100 questions in each row. Both models use the same item sets. These natural results contain no oracle replacement; the direct/staged comparison is not compute-matched.}
 \label{tab:natural}
 \end{table}
+
+\paragraph{Correct answers can omit the explicit schema path.}
+Across 400 natural model--item outcomes (two models on the same 200 questions), 23 final adaptation inputs have no schema text, roles, relations, conditions, inference rule, or exceptions. Twelve of those outcomes are correct: three Llama GPQA and one Llama murder outcome, and three DeepSeek GPQA and five DeepSeek murder outcomes. This inspects the actual recorded A input rather than an analogy-mention screen. A correct answer therefore does not guarantee that the designed transfer path delivered schema content. The check does not exclude spontaneous internal analogy or validate the schemas in the other paths.
 
 \paragraph{An initial stage distribution is incomplete.}
 The primary Llama cohort contains 73 initial GPQA failures and 43 murder failures. All GPQA failures receive initial R assignments in the retained diagnosis. Murder assignments are R in 19 cases, M in three, and A in 21. No initial S assignment appears in either cohort. Those labels describe the archived inspection order and criteria; their frequencies are not independently validated population estimates.
