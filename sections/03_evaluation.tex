@@ -1,0 +1,44 @@
+\section{Evaluation Design}
+\label{sec:method}
+The framework motivates three evaluation questions: do apparent analogy gains survive appropriate controls; do source solutions help selectively through intended correspondence; and which stage difficulties remain after upstream repair? The first two experiments examine outcomes under different source conditions. The third evaluates the imposed four-stage workflow. They provide complementary evidence, rather than a single benchmark score or one identical protocol.
+
+\subsection{Tasks and response accounting}
+GPQA Main contains 448 graduate-level science questions \citep{rein2023gpqa}, with 78 biology, 183 chemistry, and 187 physics items in the local version. We use Main rather than the 198-item Diamond subset. MuSR supplies murder mysteries, object placements, and team allocation \citep{sprague2024musr}. These tasks respectively require combining clues, tracking locations and agents' knowledge, and satisfying assignment constraints. GPQA often requires external scientific knowledge; MuSR provides much of the relevant evidence in its narratives, facilitating sources with changed entities but preserved solution relations.
+
+Accuracy uses the reference choice. A recorded failed response or unextractable final answer is incorrect. Matched contrasts align identifiers, not file order. A missing question record is distinct from a recorded invalid response. Repeated calls to a question characterize execution variability, not additional independent questions. We interpret numerical patterns descriptively and distinguish run standard deviation from inferential uncertainty.
+
+\subsection{Controls for apparent analogy benefits}
+\label{sec:phase1method}
+The scientific study compares concept-focused teacher analogies with explanations, random analogies, and solver-generated reasoning. DeepSeek V4 Flash creates the teacher content. Solvers are Llama-3.1-8B-Instruct, Qwen3-8B, Mistral-7B-Instruct-v0.3, and Gemma-4-31B-it. CoT and self-analogy provide strategies without an external teacher example \citep{wei2022cot,kojima2022zero}.
+
+We compare a 300-word analogy with a 600-word analogy, and one, two, or three examples under a nominal 600-word total budget. Non-analogical explanations have 300- or 600-word budgets. Random examples come from the same or a different scientific domain. Each comparison has a specific purpose: length probes additional text; explanations probe whether benefits require analogical presentation; random sources probe the intended relation; and multiple examples probe the opportunity for comparative abstraction. The last comparison does not directly establish that a schema was induced.
+
+A net gain can conceal both improvements and regressions. On the same items, with baseline $b$ and condition $c$, we measure
+\begin{equation}
+ p_c-p_b=H_{b\rightarrow c}-D_{b\rightarrow c},
+ \label{eq:help-harm}
+\end{equation}
+where $H$ is the fraction changing from incorrect to correct and $D$ the fraction changing from correct to incorrect. Both use all shared items as denominator. We separately record explicit reference to the analogy, example, or teacher, including references that reject it. Mention and correctness are distinct observations; neither directly identifies valid structural use.
+
+Llama, Qwen, and Mistral have 448 retained responses in each reported condition. Gemma has 435--447. Its overall accuracies can reflect changes in question composition; paired contrasts use shared identifiers. Appendix~\ref{app:execution} gives the counts and condition definitions.
+
+\subsection{A factorial test of source-solution transfer}
+\label{sec:phase2method}
+For each selected MuSR target, GPT-5.6-Sol constructs a source with changed entities and context but intended shared solution relations. The generator sees the target reference answer; the solver does not. Sources contain a narrative, question, choices, and a separate correct source-answer field. Construction is checked for completeness, intended structural suitability, and absence of explicit target-answer disclosure, with manual review of difficult examples and a small model-based assessment rather than exhaustive human validation.
+
+The experiment uses the 103 completed records available at execution: 61 murder mysteries, 21 object placements, and 21 team-allocation questions. This is neither full MuSR nor a documented representative random sample. Random controls reassign the same sources one-to-one among targets with equal choice counts, without self-assignment. Assignment reduces same-story and same-task matches where possible. Four five-choice object-placement items retain same-story controls because alternatives are unavailable. Random reassignment removes the designed correspondence, not every incidental useful relation.
+
+We cross source type with source-answer availability: $A$ is corresponding/withheld; $B$ corresponding/provided; $C$ random/withheld; and $D$ random/provided. Withholding removes only the answer field, retaining source narrative, question, and choices. The target, neutral ``additional example'' label, instruction, temperature zero, and 2,048-token output ceiling are fixed. Selective source-answer benefit is
+\begin{equation}
+ \Delta_{\mathrm{transfer}}=(p_B-p_A)-(p_D-p_C).
+ \label{eq:interaction}
+\end{equation}
+A positive interaction supports a greater answer benefit under intended correspondence. We report every cell because an interaction may combine improvement with damage to a control. Zero interaction can coexist with a useful corresponding source.
+
+Llama-3.2-1B and 3B and Llama-3.1-8B and 70B Instruct have three runs per cell. Qwen3-14B and 32B have two. Provider and quantization differences prevent interpreting the comparison as a pure effect of model size. Random controls permute the same sources, making corpus-wide narrative lengths identical (mean 318.99 words), but not necessarily matching each pair or task. Source-choice shuffling updates answer indices. We compare $B$ on matching versus differing source/target answer positions to probe index following; the strata contain different questions, not controlled reorderings of the same target.
+
+\subsection{Stage diagnosis and continuation tests}
+\label{sec:phase3method}
+We apply the workflow in Section~\ref{sec:framework} to Llama-3.1-8B-Instruct on 100 GPQA Main questions and 100 MuSR murder mysteries. Three solved sources are requested per target. We diagnose naturally unsuccessful workflows and perform the cumulative upstream repairs of Section~\ref{sec:repair}. The question is whether corrected intermediate guidance enables the base model to finish, and which inadequate stages emerge when it does not.
+
+Human review covers 30\% of questions and associated outputs for logical coherence and correctness. The remaining cases have no human review; reference-informed correction is not equivalent to exhaustive validation. We report natural accuracy, the initial failure cohort, first-failure assignments, cumulative rescue, and overlapping stage burdens separately. All counts use the actual 100-item cohorts. Doubled display counts in some retained thesis graphics add no observations and are not used here.

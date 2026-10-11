@@ -1,0 +1,10 @@
+\section{Related Work}
+\label{sec:background}
+\paragraph{Identifying analogies.}
+ARN and AnaloBench evaluate analogy identification in narratives under variations in surface similarity and context \citep{sourati2024arn,ye2024analobench}. Recognizing a corresponding source is informative, but does not establish that its solution can be adapted to a target. Our framework preserves this distinction by separating source adequacy from later abstraction and application. The theoretical connection follows the broader effort to relate cognitive accounts of analogy to relational understanding in NLP \citep{petersen2026modelling}; our contribution is an executable diagnostic protocol with restricted interfaces and cumulative repairs.
+
+\paragraph{Using analogies for problem solving.}
+Analogical prompting generates relevant exemplars before solving the target \citep{yasunaga2024analogical}. SCUA evaluates teacher-generated analogies as explanations of scientific concepts \citep{yuan2024boosting}. These approaches establish utility under their respective settings, but example quality, additional explanation, and target-solving instructions can change together. We compare concept explanations against specific controls and then construct a factorial source-answer test to distinguish source content benefits from selective solution transfer.
+
+\paragraph{Attributing analogy effects.}
+\citet{qin2025relevant} show that random self-generated examples can also help, challenging an interpretation based on relevance alone. Our scientific results reinforce this measurement concern while exposing helpful and harmful transitions hidden by a mean. The narrative experiment provides complementary positive evidence by testing answer availability under intended correspondence and random reassignment of the same source corpus. Finally, stage diagnosis moves from whether a source condition helps to which observable operation remains inadequate. We do not claim to originate multi-component accounts of analogy or to infer hidden cognitive processes from generated text.

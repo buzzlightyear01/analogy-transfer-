@@ -1,0 +1,73 @@
+\section{A Theory-Grounded Diagnostic Framework}
+\label{sec:framework}
+\subsection{From cognitive distinctions to stage contracts}
+Structure-mapping theory treats analogy as correspondence between relational systems rather than isolated attributes \citep{gentner1983structure}. Systematicity favors connected, especially causal, relations over disconnected local matches \citep{clement1991systematicity}; computational structure mapping makes consistency constraints explicit \citep{falkenhainer1989sme}. However, the availability of a source and the soundness of an inference from it are separable \citep{gentner1993roles,holyoak1987surface}. Comparing sources can yield a schema that abstracts the solution principle and its applicability conditions \citep{gick1983schema,gentner2003learning}. Applying that schema remains a further problem: target-specific constraints can defeat transfer even when an appropriate source is accessible \citep{novick1991math}.
+
+We translate these distinctions into four externally controlled calls. Let $x$ denote the target, $r$ the solved sources, $m$ their mapping, $s$ a schema, and $a$ the adapted solution. The permitted information flow is
+\begin{equation}
+ \begin{aligned}
+ r&=R(x), & m&=M(r),\\
+ s&=S(m), & a&=A(x,s).
+ \end{aligned}
+ \label{eq:flow}
+\end{equation}
+Each call starts fresh; only the permitted recorded artifact passes forward. Figure~\ref{fig:framework} and Table~\ref{tab:contracts} describe the interfaces. The natural workflow never receives the target reference answer.
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[font=\small,>=Stealth,
+ stage/.style={draw,rounded corners,align=center,minimum width=6.3cm,minimum height=.65cm},node distance=.35cm]
+\node[stage] (r) {Retrieval: three solved sources};
+\node[stage,below=of r] (m) {Mapping: shared roles and relations};
+\node[stage,below=of m] (s) {Schema induction: rule and applicability};
+\node[stage,below=of s] (a) {Adaptation: instantiate and solve target};
+\draw[->] (r)--(m); \draw[->] (m)--(s); \draw[->] (s)--(a);
+\node[above=.18cm of r] {Target enters retrieval};
+\node[below=.18cm of a] {Target re-enters adaptation};
+\end{tikzpicture}
+\caption{An observable source-to-target workflow. Mapping compares sources; schema induction abstracts their mapped structure; adaptation reconnects the schema to the target. Each stage receives a restricted artifact rather than the entire preceding conversation.}
+\label{fig:framework}
+\end{figure}
+
+\begin{table*}[t]
+\centering
+\small
+\begin{tabularx}{\textwidth}{@{}p{2.3cm}p{3.65cm}X@{}}
+\toprule
+Stage & Permitted input & Required artifact and adequacy criterion \\
+\midrule
+Retrieval & Target and choices & Three solved sources with answers and explanations; sources must support a solution-relevant relational structure. \\
+Mapping & Retrieval artifact only & Corresponding roles and relations across sources, source suitability, and material differences; correspondences must be consistent and informative. \\
+Schema induction & Mapping artifact only & Abstract solution rule, roles, relations, applicability conditions, and limits; enough structure must remain to guide a new solution. \\
+Adaptation & Target and necessary schema content & Instantiated roles, target-constraint checks, necessary adjustments, and a final answer supported by target evidence. \\
+\bottomrule
+\end{tabularx}
+\caption{Stage contracts make theoretical distinctions operational. The raw target is withheld from the two middle stages, and raw sources are withheld from adaptation.}
+\label{tab:contracts}
+\end{table*}
+
+\paragraph{Retrieval.}
+This stage obtains three solved source problems. In our implementation, the model can generate them; ``retrieval'' names their functional role, not an observation of access to internal memory. Topical resemblance is insufficient: a source must preserve relations useful for solving the target, and its own explanation must be defensible.
+
+\paragraph{Mapping.}
+The model compares the retrieved sources with one another, recording shared roles, relations, useful examples, and consequential differences. It does not see the target. Consistency and connected relations matter more than a list of similar nouns. Alignable differences help distinguish incidental changes from discrepancies that invalidate transfer \citep{gentner1997mapping}.
+
+\paragraph{Schema induction.}
+The model sees only the recorded mapping. It must express an abstract solution rule together with conditions and limits. A schema should be general enough to cross domains while retaining the operations needed for a solution. The restriction tests whether the mapping artifact supports abstraction without rereading the original narratives.
+
+\paragraph{Adaptation.}
+The target re-enters with the schema, but without raw sources or the mapping. The model instantiates roles, adjusts domain-specific details, checks constraints, and answers. This is where the shared structure is connected to the actual target rather than merely described.
+
+In the convergence example, the sources must retain that concentrated force is unsafe along a path, weak forces alone are insufficient, and coordinated forces combine at the goal. The mapping aligns this relational system; the schema states the conditions under which convergence works; adaptation checks whether the target satisfies them. ``Organize resources better'' is too general, while copying a source-specific object or answer position fails to instantiate the relation.
+
+These boundaries define an experimental source-comparison-to-schema-to-target path. They may impose costs absent from ordinary prompting, and they are not a universal temporal model of cognition. Their value is to specify which artifact supports each next operation, making failures inspectable and replacements interpretable.
+
+\subsection{Diagnosing first failure and downstream burden}
+\label{sec:repair}
+For each naturally unsuccessful trajectory, we inspect artifacts in stage order and record the first one inadequate for its assigned function. The label identifies the first observable failure in this workflow, not the unique hidden cause of the answer. An inadequate retrieval can mask whether the model would also fail to map, abstract, or adapt a good source.
+
+We then replace only that artifact with a corrected one, retain earlier artifacts, and rerun downstream calls with the same base model. If the answer becomes correct, the continuation is rescued under the correction. Otherwise, the new path is inspected and the next inadequate artifact is corrected while prior corrections remain. This yields two distinct observations: the \emph{initial first-failure distribution}, and the \emph{burden revealed over cumulative repairs}. The latter can count one question at several stages.
+
+GPT-6 Sol authors corrected artifacts with access to the target reference answer, an \emph{open-oracle} construction setting. Upstream corrections must be defensible under their stage contract and must not explicitly disclose the target answer. The base model continuing the workflow never receives the reference. This setting tests whether it can exploit solution-relevant upstream guidance; it does not measure autonomous source generation or an isolated causal effect of each stage.
+
+Adaptation requires special treatment. A corrected adaptation artifact already includes the final answer and leaves no downstream model call. Agreement with the reference after that replacement is therefore not a rescue by the base model. We count genuine continuation only after retrieval, mapping, or schema corrections, and keep final oracle outputs separate. This distinction prevents an answer supplied by the correction procedure from being mistaken for successful transfer by the solver.

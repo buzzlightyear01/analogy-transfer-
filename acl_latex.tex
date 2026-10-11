@@ -17,16 +17,17 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-An accuracy gain after adding an analogy does not establish that a language model transferred its relational structure. Additional explanation, source-answer cues, and changes in prompting can also affect performance, while aggregate gains can conceal damage to previously correct answers. We introduce a theory-grounded framework that makes analogical reasoning observable through four stages: retrieval, mapping, schema induction, and adaptation. Each stage has an explicit information boundary and an auditable output; replacing deficient outputs with reference-informed corrections tests downstream continuation. We support this framework with three studies. Controlled scientific question answering separates analogy gains from explanation and random-example effects. A factorial experiment on narrative reasoning finds that source-answer benefits depend on structural correspondence in several models, with transfer interactions of 14.24 and 12.94 percentage points for Llama-3.1-8B and 70B. Finally, stage interventions reveal that initial retrieval failures can conceal later adaptation failures. The framework distinguishes final-answer correctness, textual reference to an analogy, and successful structural transfer, providing a basis for diagnosing both helpful and harmful analogy use.
+Language models can benefit from analogies without reliably transferring their relational structure. Additional explanation and answer cues can improve accuracy, while a net gain can conceal regressions. We introduce a theory-grounded diagnostic framework that operationalizes analogical reasoning through retrieval, mapping, schema induction, and adaptation. Explicit stage artifacts and information boundaries allow unsuccessful paths to be inspected and rerun after reference-informed upstream corrections. Three complementary evaluations link outcome measurement to process diagnosis. Scientific question-answering controls show that analogy gains need not exceed explanation or random-example effects. A factorial narrative experiment finds structure-dependent source-answer benefits, including transfer interactions of 14.24 and 12.94 percentage points for Llama-3.1-8B and 70B. In the diagnostic workflow, all initial GPQA failures occur at retrieval, yet 75.34\% of that failure cohort still reaches inadequate adaptation after upstream corrections. This separates the first visible barrier from the remaining difficulty. The framework enables more precise evaluation of helpful and harmful analogy use while distinguishing assisted continuation from independent model success.
 \end{abstract}
 \input{sections/01_introduction}
-\input{sections/02_background}
-\input{sections/03_method}
+\input{sections/02_framework}
+\input{sections/03_evaluation}
 \input{sections/04_results}
-\input{sections/05_discussion}
+\input{sections/05_related_work}
+\input{sections/06_conclusion}
 \clearpage
-\input{sections/06_limitations}
+\input{sections/07_limitations}
 \bibliography{custom}
 \appendix
-\input{sections/07_appendix}
+\input{sections/08_appendix}
 \end{document}

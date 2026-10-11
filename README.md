@@ -5,8 +5,8 @@ structural transfer, and diagnosis of retrieval, mapping, schema induction,
 and adaptation in language models.
 
 - `acl_latex.tex`: main manuscript, using the official ACL anonymous review style.
-- `sections/`: five main sections, limitations, ethical considerations, and appendix.
-- `acl_latex.pdf`: compiled review copy; eight main pages, eleven pages total in the initial version.
+- `sections/`: six main sections organized around the framework, plus limitations, ethical considerations, and appendix.
+- `acl_latex.pdf`: compiled review copy; eight main pages and eleven pages total in the current framework-centered revision.
 - `custom.bib`: references selected from the thesis bibliography.
 - `figures/`: compact figures derived from retained experimental audits.
 - `scripts/build_figures.py`: figure-generation source; requires the original thesis workspace's audit files.
