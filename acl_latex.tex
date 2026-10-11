@@ -1,0 +1,32 @@
+\documentclass[11pt]{article}
+\usepackage[review]{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\title{Beyond Mapping: A Theory-Grounded Framework for\protect\\Evaluating Analogical Transfer in Language Models}
+\author{Anonymous ACL submission}
+\begin{document}
+\maketitle
+\begin{abstract}
+An accuracy gain after adding an analogy does not establish that a language model transferred its relational structure. Additional explanation, source-answer cues, and changes in prompting can also affect performance, while aggregate gains can conceal damage to previously correct answers. We introduce a theory-grounded framework that makes analogical reasoning observable through four stages: retrieval, mapping, schema induction, and adaptation. Each stage has an explicit information boundary and an auditable output; replacing deficient outputs with reference-informed corrections tests downstream continuation. We support this framework with three studies. Controlled scientific question answering separates analogy gains from explanation and random-example effects. A factorial experiment on narrative reasoning finds that source-answer benefits depend on structural correspondence in several models, with transfer interactions of 14.24 and 12.94 percentage points for Llama-3.1-8B and 70B. Finally, stage interventions reveal that initial retrieval failures can conceal later adaptation failures. The framework distinguishes final-answer correctness, textual reference to an analogy, and successful structural transfer, providing a basis for diagnosing both helpful and harmful analogy use.
+\end{abstract}
+\input{sections/01_introduction}
+\input{sections/02_background}
+\input{sections/03_method}
+\input{sections/04_results}
+\input{sections/05_discussion}
+\clearpage
+\input{sections/06_limitations}
+\bibliography{custom}
+\appendix
+\input{sections/07_appendix}
+\end{document}

@@ -1,0 +1,48 @@
+\section{Execution and Evaluation Details}
+\label{app:execution}
+This appendix summarizes the retained experimental protocol. It describes stage tasks and condition construction rather than presenting reconstructed wording as the exact historical prompts.
+
+\subsection{Phase-I condition identifiers}
+The reported 300-word analogy is condition~1, focused on the main scientific concept. Condition~2 uses one 600-word analogy; conditions~3 and~4 use two 300-word and three 200-word analogies. Conditions~5 and~6 are non-analogical explanations of nominal length 300 and 600 words. Conditions~7 and~8 are random same-domain and different-domain analogies. Condition~20 requests CoT and condition~21 requests solver-generated analogy, with a source-generation ceiling of 600 words. The broader study also contains condition~0, an unrestricted-concept analogy; it is not the selected main analogy in Table~\ref{tab:phase1}.
+
+Available Gemma response counts for conditions 1, 2, 3, 4, 5, 6, 7, 8, 20, and 21 are respectively 445, 444, 442, 441, 441, 444, 441, 444, 435, and 447. Llama, Qwen, and Mistral have 448 retained responses in each reported condition. Correctness transitions are computed by identifier intersection, with recorded missing final predictions treated as incorrect. A missing question record is distinct from a recorded response lacking a valid answer.
+
+\subsection{Phase-II source construction and assignment}
+Sources contain \texttt{analogy}, \texttt{question}, \texttt{choices}, and \texttt{answer} fields. Generation preserves the target choice count, requests a single correct source option, and caps the source narrative below 1,000 words. Source-choice reordering uses seed 20260901; random-control assignment uses seed 20260903, with the source answer updated after reordering. Withholding the answer removes only \texttt{answer}. The older exploratory no-solution condition also withheld source choices and is not used as the main factorial comparison.
+
+Mean corresponding/random narrative lengths by task are 371.41/371.41 words for murder mysteries, 189.14/228.76 for object placements, and 296.57/256.95 for team allocation. Their weighted corpus-wide means are both 318.99 words. Four five-choice object-placement questions have same-story random controls. This is a remaining source-construction limitation rather than evidence of complete structural independence.
+
+\subsection{Interpreting the answer-position check}
+In the source-answer condition $B$, 51 of the 103 questions have matching source and target answer indices and 52 have differing indices. Pooling three Llama runs yields 153 and 156 response events, respectively; it does not yield that many independent questions. The counts of correct matching/differing events are 135/1 for 1B, 93/83 for 3B, 114/89 for 8B, and 121/102 for 70B. These counts reproduce the position-stratified accuracies in Section~\ref{sec:phase2results}.
+
+\section{Diagnostic Cohorts and State Accounting}
+\label{app:states}
+Table~\ref{tab:states} reports the actual Phase-III counts. Some retained visualization assets display counts multiplied by two. That display transformation preserves percentages but adds no observations; the paper uses the original 100-item dataset cohorts and the 73/43 initial failure cohorts throughout.
+
+\begin{table}[tbp]
+\centering
+\small
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+State & Rescued & R & M & S & A \\
+\midrule
+\multicolumn{6}{l}{GPQA: 73 initial failures} \\
+Initial & 0 & 73 & 0 & 0 & 0 \\
+After R & 17 & 0 & 26 & 7 & 23 \\
+After M & 17 & 0 & 0 & 15 & 41 \\
+After S & 18 & 0 & 0 & 0 & 55 \\
+\midrule
+\multicolumn{6}{l}{Murder mysteries: 43 initial failures} \\
+Initial & 0 & 19 & 3 & 0 & 21 \\
+After R & 11 & 0 & 6 & 0 & 26 \\
+After M & 14 & 0 & 0 & 1 & 28 \\
+After S & 15 & 0 & 0 & 0 & 28 \\
+\bottomrule
+\end{tabular}
+\caption{Actual cohort counts over cumulative repair. Each row partitions the same initial failures into rescued paths and the current first inadequate stage: retrieval (R), mapping (M), schema (S), or adaptation (A). Final gold adaptation is excluded.}
+\label{tab:states}
+\end{table}
+
+The stage burdens accumulated across interventions overlap, unlike the mutually exclusive states in each row. GPQA has 73 paths needing retrieval correction, 26 needing mapping correction, 15 needing schema correction, and 55 reaching inadequate adaptation. For murder mysteries, these counts are 19, 6, 1, and 28. A path can contribute to several of these totals; summing them does not count failed questions.
+
+The saved Phase-III base-model identifier is \texttt{cf.llama-3.1-8b-instruct-fast}. No completed second-model comparison is included in this manuscript. Natural successes are 27 GPQA and 57 murder-mystery questions; cumulative genuine upstream rescue contributes 18 and 15, respectively. The agreement of reference-informed final outputs is distinct from these base-model continuations.

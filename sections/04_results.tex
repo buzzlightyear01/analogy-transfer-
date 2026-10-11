@@ -1,0 +1,99 @@
+\section{Results and Analysis}
+\label{sec:results}
+\subsection{Phase I: accuracy gains do not isolate analogy}
+\label{sec:phase1results}
+Table~\ref{tab:phase1} summarizes the reported conditions. A concept-focused 300-word analogy does not outperform both random controls for any of the four solvers. For Llama, a same-domain random source slightly exceeds the intended analogy, while the different-domain control is lower. Qwen matches the same-domain control and trails the different-domain control. Mistral trails both. Gemma's intended analogy lies between the two controls, although its retained sets differ. The results do not establish an analogy-specific advantage merely from receiving a selected example.
+
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Condition & Llama-8B & Qwen-8B & Mistral-7B & Gemma-31B \\
+\midrule
+Analogy, 300 words & 30.80 & 36.61 & 27.01 & 65.39 \\
+Analogy, 600 words & 31.25 & 36.83 & 28.79 & 68.69 \\
+Two analogies, $2\times300$ words & 31.92 & 35.27 & 30.58 & 69.00 \\
+Three analogies, $3\times200$ words & 31.03 & 39.73 & 26.56 & 69.61 \\
+Non-analogical explanation, 300 words & 31.03 & 37.72 & 27.68 & 68.25 \\
+Non-analogical explanation, 600 words & 30.58 & 36.61 & 25.89 & 68.47 \\
+Random same-domain analogy, 300 words & 31.25 & 36.61 & 27.68 & 64.85 \\
+Random different-domain analogy, 300 words & 29.69 & 39.73 & 28.13 & 67.12 \\
+Chain-of-thought & 32.14 & 42.19 & 16.96 & 66.52 \\
+Self-analogy & 28.79 & 43.30 & 22.54 & 64.06 \\
+\bottomrule
+\end{tabular}
+\caption{Phase-I accuracy (\%) on GPQA Main. Llama, Qwen, and Mistral have 448 retained responses per condition. Gemma has 435--447, so its overall contrasts can also reflect changes in the retained question set. Recorded responses without a final answer are incorrect.}
+\label{tab:phase1}
+\end{table*}
+
+\paragraph{Explanation and length.}
+For Mistral, the 300-word teacher analogy improves accuracy over CoT from 16.96\% to 27.01\%. Yet the non-analogical explanation reaches 27.68\%. The benefit therefore does not require an analogical format. In Llama, both teacher inputs trail CoT; in Qwen, self-analogy reaches 43.30\%, compared with 42.19\% for CoT and 36.61\% for the teacher analogy. Doubling analogy length changes accuracy by only 0.45 points for Llama and 0.22 for Qwen. Longer explanations do not uniformly improve performance either. The appropriate baseline depends on the claim: a gain against CoT and a gain against a length-matched explanation answer different questions.
+
+\paragraph{Multiple examples and textual mention.}
+At the same nominal 600-word total budget, additional examples do not produce a monotonic accuracy increase. Mistral reaches 28.79\%, 30.58\%, and 26.56\% with one, two, and three examples. Meanwhile, explicit mentions increase from 12.05\% to 19.42\% and 29.24\%. Multiple examples become more visible in explanations of both correct and incorrect answers. This is consistent with increased engagement with the examples, but does not directly demonstrate successful schema induction.
+
+With the 300-word analogy, Qwen explicitly mentions the example in 31.70\% of all responses, versus 8.31\% for Gemma, despite Gemma's much higher accuracy. Among Qwen's correct and incorrect responses, mention rates are 31.10\% and 32.04\%. Textual reference therefore fails to separate successful use from unsuccessful use. Conversely, a correct answer without explicit mention does not establish that the source was ignored.
+
+\paragraph{Helpful and harmful answer changes.}
+Item matching makes the costs of a net gain visible. For Mistral, the 300-word analogy repairs 86 CoT errors among the 448 items (19.20\% of all items), but turns 41 previously correct answers into errors (9.15\%). The net gain is 45/448, or 10.04 percentage points. Two 300-word analogies repair 105 answers and damage 44. Figure~\ref{fig:transitions} shows that improvements and regressions occur together across conditions. These are condition-associated transitions; differing instructions and comparable transitions under random controls prevent attributing every regression to a faulty analogical mapping.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/phase1_transitions.pdf}
+\caption{Mistral transitions relative to CoT on the same 448 questions. Improvements and regressions use all shared items as denominator. Their difference is the net accuracy change.}
+\label{fig:transitions}
+\end{figure}
+
+These observations motivate sources constructed around the target's solution relations, rather than concept explanations alone. Reference-informed construction in the following phases aims to improve the guide's structural adequacy; it does not give the base solver the target answer.
+
+\subsection{Phase II: source answers help selectively}
+\label{sec:phase2results}
+Table~\ref{tab:phase2} reports the factorial cells and their interaction. Llama-1B gains 5.50 points from providing either source answer, giving zero mean interaction. Llama-3B benefits from corresponding source content by about 13.92 points in both answer settings, but providing the answer produces the same 2.91-point gain in corresponding and random sources. Thus, zero interaction can coexist with a substantial source-content advantage.
+
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Model & $A$: true/no answer & $B$: true/answer & $C$: random/no answer & $D$: random/answer & $\Delta_{\mathrm{transfer}}$ \\
+\midrule
+Llama-3.2-1B & $38.51\pm1.48$ & $44.01\pm0.56$ & $38.51\pm2.02$ & $44.01\pm0.56$ & $0.00$ \\
+Llama-3.2-3B & $54.05\pm1.48$ & $56.96\pm0.56$ & $40.13\pm1.12$ & $43.04\pm1.48$ & $0.00$ \\
+Llama-3.1-8B & $52.10\pm3.68$ & $65.70\pm3.41$ & $52.43\pm1.94$ & $51.78\pm7.35$ & $+14.24$ \\
+Llama-3.1-70B & $59.22\pm3.88$ & $72.17\pm8.76$ & $53.07\pm2.24$ & $53.07\pm2.02$ & $+12.94$ \\
+\midrule
+Qwen3-14B & $66.02\pm4.12$ & $75.24\pm0.69$ & $60.68\pm2.06$ & $60.68\pm3.43$ & $+9.22$ \\
+Qwen3-32B & $68.93\pm2.75$ & $74.27\pm0.69$ & $65.53\pm2.06$ & $58.25\pm2.75$ & $+12.62$ \\
+\bottomrule
+\end{tabular}
+\caption{Phase-II accuracy (\%, mean $\pm$ run SD) on the same 103 MuSR targets in every cell. Llama has three runs; Qwen has two. Interactions are in percentage points, computed from unrounded run-level values; rounding displayed cells can produce small discrepancies. SD is not an inferential confidence interval.}
+\label{tab:phase2}
+\end{table*}
+
+The two larger Llama models show a different pattern. For 8B, the corresponding source answer increases accuracy by 13.59 points while the random answer changes it by $-0.65$, giving a 14.24-point interaction. For 70B, the corresponding answer adds 12.94 points and the random answer adds none. These results support selective use of the intended corresponding solution under this protocol. They do not imply that every correct answer used the analogy or that transfer increases monotonically with model size.
+
+Both Qwen models show positive interactions as well. Qwen-14B benefits from the corresponding answer while its random-answer mean is unchanged. For Qwen-32B, the interaction combines a 5.34-point corresponding-answer gain with a 7.28-point random-answer loss. Reporting the cells matters: the larger interaction does not mean a larger benefit from the correct guide.
+
+\paragraph{Answer roles versus answer positions.}
+Llama-1B obtains 88.24\% accuracy when correct source and target answer positions match, but only 0.64\% when they differ. Together with its identical answer effects for corresponding and random sources, this suggests predominant index following. Llama-8B and 70B retain 57.05\% and 65.38\% accuracy in the different-position stratum; their same-position accuracies are 74.51\% and 79.08\%. These results are compatible with more than index copying, although position sensitivity persists. Because the strata contain different target items, we interpret this check alongside the factorial comparison, not as a standalone causal estimate.
+
+\subsection{Phase III: locating and revealing failures}
+\label{sec:phase3results}
+We now ask what prevents a transfer attempt from succeeding. The natural four-stage Llama-8B workflow answers 27/100 GPQA items and 57/100 murder mysteries correctly. All 73 unsuccessful GPQA paths are first diagnosed at retrieval. For murder mysteries, the 43 failures begin at retrieval in 19 cases, mapping in 3, and adaptation in 21; none is initially assigned to schema induction. These distributions are conditional on failed workflow outputs, not stage failure rates over all items.
+
+\paragraph{First failure is not the full diagnosis.}
+After reference-informed retrieval correction, the base model solves 17 of the 73 GPQA failures (23.29\%). Mapping corrections do not increase this total; cumulative schema corrections add one rescue, bringing it to 18/73 (24.66\%). For murder mysteries, cumulative upstream corrections rescue 11, then 14, then 15 of the 43 original failures after retrieval, mapping, and schema interventions (25.58\%, 32.56\%, and 34.88\%). Figure~\ref{fig:repairs} tracks the same initial failure cohorts throughout.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/phase3_repairs.pdf}
+\caption{Cumulative rescue of initially failed workflows after upstream corrections. Counts use the actual cohorts: 73 GPQA and 43 murder-mystery failures. Final gold adaptation is excluded because it supplies the answer rather than testing downstream base-model continuation.}
+\label{fig:repairs}
+\end{figure}
+
+After upstream repair, adaptation remains inadequate for 55/73 GPQA failures (75.34\%) and 28/43 murder mysteries (65.12\%). Across the cumulative trajectories, GPQA additionally reveals mapping problems in 26/73 and schema problems in 15/73. Murder mysteries reveal mapping problems in 6/43 and schema problems in 1/43. These counts overlap: one trajectory can need several corrections. In particular, diagnosing all initial GPQA failures at retrieval does not mean that improving retrieval eliminates the transfer problem.
+
+Including natural successes and genuine base-model continuations after upstream repair yields 45/100 correct GPQA answers and 72/100 correct murder-mystery answers. These are assisted workflow outcomes, not independent solver accuracies. Replacing the final adaptation with an oracle-informed answer is excluded from both totals.
+
+The domain contrast is informative. Scientific questions require external knowledge both to understand the target and to produce useful sources; narrative mysteries supply many relevant facts in the input but require applying relations under detailed target constraints. The observed diagnoses are compatible with this distinction. The intervention results show why both access to useful sources and reliable target adaptation must be assessed: the first visible obstacle can conceal a later one.
